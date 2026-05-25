@@ -89,22 +89,27 @@ class MainActivity : Activity() {
      * Handle back press — clear search if active, otherwise do nothing
      * (we're the home screen, nowhere to go back to).
      */
+    @Deprecated("Deprecated in base Activity", ReplaceWith("OnBackInvokedDispatcher"))
     @Suppress("DEPRECATION")
     override fun onBackPressed() {
         if (searchEditText.text.isNotEmpty()) {
             searchEditText.text.clear()
             searchEditText.clearFocus()
+            val imm = getSystemService(INPUT_METHOD_SERVICE) as? android.view.inputmethod.InputMethodManager
+            imm?.hideSoftInputFromWindow(searchEditText.windowToken, 0)
         }
         // Don't call super — launcher should not exit
     }
 
     /**
      * When resuming (e.g., returning from an app), clear search focus
-     * so the keyboard doesn't pop up.
+     * and ensure the soft keyboard is hidden for an optimal user experience.
      */
     override fun onResume() {
         super.onResume()
         searchEditText.clearFocus()
+        val imm = getSystemService(INPUT_METHOD_SERVICE) as? android.view.inputmethod.InputMethodManager
+        imm?.hideSoftInputFromWindow(searchEditText.windowToken, 0)
     }
 
     /**
@@ -112,7 +117,7 @@ class MainActivity : Activity() {
      * and submits the result to the adapter.
      */
     private fun updateList() {
-        val query = searchEditText.text.toString()
+        val query = searchEditText.text // Zero allocation CharSequence reference
         val filtered = SearchManager.filter(repository.getApps(), query)
         adapter.submitList(filtered)
     }

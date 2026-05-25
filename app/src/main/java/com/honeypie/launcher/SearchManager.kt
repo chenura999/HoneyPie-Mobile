@@ -10,8 +10,8 @@ object SearchManager {
      * Filters the app list by label using case-insensitive contains match.
      * Returns the full list if query is blank.
      */
-    fun filter(apps: List<AppInfo>, query: String): List<AppInfo> {
-        if (query.isBlank()) return apps
+    fun filter(apps: List<AppInfo>, query: CharSequence): List<AppInfo> {
+        if (query.isEmpty() || query.all { it.isWhitespace() }) return apps
 
         val result = ArrayList<AppInfo>(apps.size / 4) // reasonable initial capacity
         for (app in apps) {

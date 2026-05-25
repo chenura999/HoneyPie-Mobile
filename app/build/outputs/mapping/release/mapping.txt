@@ -3,8 +3,8 @@
 # min_api: 24
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.2"}
-# pg_map_id: 44539ea
-# pg_map_hash: SHA-256 44539ea1efc62c440074dfc53095b162a0def1d834d3b8bf9e268ad256cbe699
+# pg_map_id: 7010a44
+# pg_map_hash: SHA-256 7010a442816a0d1d61daa50c76be437aed53def5c06b61470367447114aaa1d2
 android.app.AppComponentFactory -> android.app.AppComponentFactory:
 # {"id":"com.android.tools.r8.synthesized"}
     void <clinit>() -> <clinit>
@@ -542,17 +542,17 @@ androidx.collection.internal.ContainerHelpersKt -> c.a:
     10:24:int binarySearch(int[],int,int):60:60 -> a
       # {"id":"com.android.tools.r8.residualsignature","signature":"(II[I)I"}
     15:31:int binarySearch(long[],int,long):79:79 -> b
-androidx.concurrent.futures.AbstractResolvableFuture -> d.h:
+androidx.concurrent.futures.AbstractResolvableFuture -> d.g:
 # {"id":"sourceFile","fileName":"AbstractResolvableFuture.java"}
     java.lang.Object value -> a
     androidx.concurrent.futures.AbstractResolvableFuture$Listener listeners -> b
-      # {"id":"com.android.tools.r8.residualsignature","signature":"Ld/d;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ld/c;"}
     androidx.concurrent.futures.AbstractResolvableFuture$Waiter waiters -> c
-      # {"id":"com.android.tools.r8.residualsignature","signature":"Ld/g;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ld/f;"}
     boolean GENERATE_CANCELLATION_CAUSES -> d
     java.util.logging.Logger log -> e
     androidx.concurrent.futures.AbstractResolvableFuture$AtomicHelper ATOMIC_HELPER -> f
-      # {"id":"com.android.tools.r8.residualsignature","signature":"Ld/a;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"LA/a;"}
     java.lang.Object NULL -> g
     1:10:void <clinit>():64:64 -> <clinit>
     11:14:void <clinit>():66:66 -> <clinit>
@@ -585,7 +585,7 @@ androidx.concurrent.futures.AbstractResolvableFuture -> d.h:
     1:2:void releaseWaiters():942:942 -> b
     1:2:void complete(androidx.concurrent.futures.AbstractResolvableFuture):874 -> b
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/h;)V"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/g;)V"}
     3:15:void releaseWaiters():943:943 -> b
     3:15:void complete(androidx.concurrent.futures.AbstractResolvableFuture):874 -> b
     16:19:void androidx.concurrent.futures.AbstractResolvableFuture$Waiter.unpark():151:151 -> b
@@ -630,11 +630,11 @@ androidx.concurrent.futures.AbstractResolvableFuture -> d.h:
     29:36:boolean cancel(boolean):570:570 -> cancel
     37:43:boolean cancel(boolean):577:577 -> cancel
     2:7:java.lang.Object getUninterruptibly(java.util.concurrent.Future):856:856 -> d
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/h;)Ljava/lang/Object;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/g;)Ljava/lang/Object;"}
     8:25:java.lang.Object getUninterruptibly(java.util.concurrent.Future):863:863 -> d
     26:28:java.lang.Object getUninterruptibly(java.util.concurrent.Future):865:865 -> d
     2:3:void removeWaiter(androidx.concurrent.futures.AbstractResolvableFuture$Waiter):171:171 -> e
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/g;)V"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/f;)V"}
     4:5:void removeWaiter(androidx.concurrent.futures.AbstractResolvableFuture$Waiter):175:175 -> e
     6:13:void removeWaiter(androidx.concurrent.futures.AbstractResolvableFuture$Waiter):176:176 -> e
     14:15:void removeWaiter(androidx.concurrent.futures.AbstractResolvableFuture$Waiter):181:181 -> e
@@ -716,65 +716,14 @@ androidx.concurrent.futures.AbstractResolvableFuture -> d.h:
     122:125:java.lang.String toString():997:997 -> toString
     126:130:java.lang.String toString():999:999 -> toString
     131:138:java.lang.String toString():1002:1002 -> toString
-androidx.concurrent.futures.AbstractResolvableFuture$AtomicHelper -> d.a:
-# {"id":"sourceFile","fileName":"AbstractResolvableFuture.java"}
-    long androidx.tracing.Trace.sTraceTagApp -> a
-    java.lang.reflect.Method androidx.tracing.Trace.sIsTagEnabledMethod -> b
-    1:2:java.util.Iterator kotlin.sequences.SequencesKt__SequenceBuilderKt.iterator(kotlin.jvm.functions.Function2):37:37 -> a
-    1:2:java.util.Iterator kotlin.sequences.SequencesKt__SequenceBuilderKt$sequence$$inlined$Sequence$1.iterator():23 -> a
-    1:2:void androidx.customview.poolingcontainer.PoolingContainer.callPoolingContainerOnRelease(android.view.View):155 -> a
-    3:5:void kotlin.sequences.SequenceScope.<init>():53:53 -> a
-    3:5:void kotlin.sequences.SequenceBuilderIterator.<init>():104 -> a
-    3:5:java.util.Iterator kotlin.sequences.SequencesKt__SequenceBuilderKt.iterator(kotlin.jvm.functions.Function2):37 -> a
-    3:5:java.util.Iterator kotlin.sequences.SequencesKt__SequenceBuilderKt$sequence$$inlined$Sequence$1.iterator():23 -> a
-    3:5:void androidx.customview.poolingcontainer.PoolingContainer.callPoolingContainerOnRelease(android.view.View):155 -> a
-    6:12:kotlin.coroutines.Continuation androidx.core.view.ViewKt$allViews$1.create(java.lang.Object,kotlin.coroutines.Continuation):0:0 -> a
-    6:12:kotlin.coroutines.Continuation kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(kotlin.jvm.functions.Function2,java.lang.Object,kotlin.coroutines.Continuation):163 -> a
-    6:12:java.util.Iterator kotlin.sequences.SequencesKt__SequenceBuilderKt.iterator(kotlin.jvm.functions.Function2):38 -> a
-    6:12:java.util.Iterator kotlin.sequences.SequencesKt__SequenceBuilderKt$sequence$$inlined$Sequence$1.iterator():23 -> a
-    6:12:void androidx.customview.poolingcontainer.PoolingContainer.callPoolingContainerOnRelease(android.view.View):155 -> a
-    13:14:void kotlin.sequences.SequenceBuilderIterator.setNextStep(kotlin.coroutines.Continuation):108:108 -> a
-    13:14:java.util.Iterator kotlin.sequences.SequencesKt__SequenceBuilderKt.iterator(kotlin.jvm.functions.Function2):38 -> a
-    13:14:java.util.Iterator kotlin.sequences.SequencesKt__SequenceBuilderKt$sequence$$inlined$Sequence$1.iterator():23 -> a
-    13:14:void androidx.customview.poolingcontainer.PoolingContainer.callPoolingContainerOnRelease(android.view.View):155 -> a
-    15:29:void androidx.customview.poolingcontainer.PoolingContainer.callPoolingContainerOnRelease(android.view.View):155:155 -> a
-    30:37:androidx.customview.poolingcontainer.PoolingContainerListenerHolder androidx.customview.poolingcontainer.PoolingContainer.getPoolingContainerListenerHolder(android.view.View):145:145 -> a
-    30:37:void androidx.customview.poolingcontainer.PoolingContainer.callPoolingContainerOnRelease(android.view.View):105 -> a
-    38:42:androidx.customview.poolingcontainer.PoolingContainerListenerHolder androidx.customview.poolingcontainer.PoolingContainer.getPoolingContainerListenerHolder(android.view.View):147:147 -> a
-    38:42:void androidx.customview.poolingcontainer.PoolingContainer.callPoolingContainerOnRelease(android.view.View):105 -> a
-    43:45:androidx.customview.poolingcontainer.PoolingContainerListenerHolder androidx.customview.poolingcontainer.PoolingContainer.getPoolingContainerListenerHolder(android.view.View):148:148 -> a
-    43:45:void androidx.customview.poolingcontainer.PoolingContainer.callPoolingContainerOnRelease(android.view.View):105 -> a
-    46:52:void androidx.customview.poolingcontainer.PoolingContainerListenerHolder.onRelease():136:136 -> a
-    46:52:void androidx.customview.poolingcontainer.PoolingContainer.callPoolingContainerOnRelease(android.view.View):105 -> a
-    53:62:int kotlin.collections.CollectionsKt__CollectionsKt.getLastIndex(java.util.List):236:236 -> a
-    53:62:void androidx.customview.poolingcontainer.PoolingContainerListenerHolder.onRelease():136 -> a
-    53:62:void androidx.customview.poolingcontainer.PoolingContainer.callPoolingContainerOnRelease(android.view.View):105 -> a
-    63:76:void androidx.customview.poolingcontainer.PoolingContainerListenerHolder.onRelease():137:137 -> a
-    63:76:void androidx.customview.poolingcontainer.PoolingContainer.callPoolingContainerOnRelease(android.view.View):105 -> a
-    boolean casListeners(androidx.concurrent.futures.AbstractResolvableFuture,androidx.concurrent.futures.AbstractResolvableFuture$Listener,androidx.concurrent.futures.AbstractResolvableFuture$Listener) -> b
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/h;Ld/d;)Z"}
-    boolean casValue(androidx.concurrent.futures.AbstractResolvableFuture,java.lang.Object,java.lang.Object) -> c
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/h;Ljava/lang/Object;Ljava/lang/Object;)Z"}
-    boolean casWaiters(androidx.concurrent.futures.AbstractResolvableFuture,androidx.concurrent.futures.AbstractResolvableFuture$Waiter,androidx.concurrent.futures.AbstractResolvableFuture$Waiter) -> d
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/h;Ld/g;Ld/g;)Z"}
-    1:6:float androidx.core.widget.EdgeEffectCompat.getDistance(android.widget.EdgeEffect):89:89 -> e
-    7:13:float androidx.core.widget.EdgeEffectCompat.getDistance(android.widget.EdgeEffect):90:90 -> e
-    1:6:float androidx.core.widget.EdgeEffectCompat.onPullDistance(android.widget.EdgeEffect,float,float):245:245 -> f
-    7:11:float androidx.core.widget.EdgeEffectCompat.onPullDistance(android.widget.EdgeEffect,float,float):246:246 -> f
-    12:15:void androidx.core.widget.EdgeEffectCompat.onPull(android.widget.EdgeEffect,float,float):197:197 -> f
-    12:15:float androidx.core.widget.EdgeEffectCompat.onPullDistance(android.widget.EdgeEffect,float,float):248 -> f
-    void putNext(androidx.concurrent.futures.AbstractResolvableFuture$Waiter,androidx.concurrent.futures.AbstractResolvableFuture$Waiter) -> g
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/g;Ld/g;)V"}
-    void putThread(androidx.concurrent.futures.AbstractResolvableFuture$Waiter,java.lang.Thread) -> h
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/g;Ljava/lang/Thread;)V"}
-androidx.concurrent.futures.AbstractResolvableFuture$Cancellation -> d.b:
+androidx.concurrent.futures.AbstractResolvableFuture$Cancellation -> d.a:
 # {"id":"sourceFile","fileName":"AbstractResolvableFuture.java"}
     java.lang.Throwable cause -> a
       # {"id":"com.android.tools.r8.residualsignature","signature":"Ljava/util/concurrent/CancellationException;"}
     androidx.concurrent.futures.AbstractResolvableFuture$Cancellation CAUSELESS_INTERRUPTED -> b
-      # {"id":"com.android.tools.r8.residualsignature","signature":"Ld/b;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ld/a;"}
     androidx.concurrent.futures.AbstractResolvableFuture$Cancellation CAUSELESS_CANCELLED -> c
-      # {"id":"com.android.tools.r8.residualsignature","signature":"Ld/b;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ld/a;"}
     1:5:void <clinit>():243:243 -> <clinit>
     6:7:void <clinit>():244:244 -> <clinit>
     8:10:void <clinit>():245:245 -> <clinit>
@@ -783,19 +732,19 @@ androidx.concurrent.futures.AbstractResolvableFuture$Cancellation -> d.b:
     1:3:void <init>(boolean,java.lang.Throwable):256:256 -> <init>
       # {"id":"com.android.tools.r8.residualsignature","signature":"(ZLjava/util/concurrent/CancellationException;)V"}
     4:6:void <init>(boolean,java.lang.Throwable):258:258 -> <init>
-androidx.concurrent.futures.AbstractResolvableFuture$Failure -> d.c:
+androidx.concurrent.futures.AbstractResolvableFuture$Failure -> d.b:
 # {"id":"sourceFile","fileName":"AbstractResolvableFuture.java"}
-androidx.concurrent.futures.AbstractResolvableFuture$Listener -> d.d:
+androidx.concurrent.futures.AbstractResolvableFuture$Listener -> d.c:
 # {"id":"sourceFile","fileName":"AbstractResolvableFuture.java"}
     androidx.concurrent.futures.AbstractResolvableFuture$Listener next -> a
-      # {"id":"com.android.tools.r8.residualsignature","signature":"Ld/d;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ld/c;"}
     androidx.concurrent.futures.AbstractResolvableFuture$Listener TOMBSTONE -> b
-      # {"id":"com.android.tools.r8.residualsignature","signature":"Ld/d;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ld/c;"}
     1:2:void <clinit>():202:202 -> <clinit>
     3:5:void <init>(java.lang.Runnable,java.util.concurrent.Executor):210:210 -> <clinit>
     3:5:void <clinit>():202 -> <clinit>
     6:8:void <clinit>():202:202 -> <clinit>
-androidx.concurrent.futures.AbstractResolvableFuture$SafeAtomicHelper -> d.e:
+androidx.concurrent.futures.AbstractResolvableFuture$SafeAtomicHelper -> d.d:
 # {"id":"sourceFile","fileName":"AbstractResolvableFuture.java"}
     java.util.concurrent.atomic.AtomicReferenceFieldUpdater waiterThreadUpdater -> c
     java.util.concurrent.atomic.AtomicReferenceFieldUpdater waiterNextUpdater -> d
@@ -812,58 +761,58 @@ androidx.concurrent.futures.AbstractResolvableFuture$SafeAtomicHelper -> d.e:
     12:14:void <init>(java.util.concurrent.atomic.AtomicReferenceFieldUpdater,java.util.concurrent.atomic.AtomicReferenceFieldUpdater,java.util.concurrent.atomic.AtomicReferenceFieldUpdater,java.util.concurrent.atomic.AtomicReferenceFieldUpdater,java.util.concurrent.atomic.AtomicReferenceFieldUpdater):1110:1110 -> <init>
     3:20:boolean java.util.concurrent.atomic.AtomicReferenceFieldUpdater.compareAndSet(java.lang.Object,java.lang.Object,java.lang.Object):0:0 -> b
     3:20:boolean casListeners(androidx.concurrent.futures.AbstractResolvableFuture,androidx.concurrent.futures.AbstractResolvableFuture$Listener,androidx.concurrent.futures.AbstractResolvableFuture$Listener):1130 -> b
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/h;Ld/d;)Z"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/g;Ld/c;)Z"}
     1:18:boolean java.util.concurrent.atomic.AtomicReferenceFieldUpdater.compareAndSet(java.lang.Object,java.lang.Object,java.lang.Object):0:0 -> c
     1:18:boolean casValue(androidx.concurrent.futures.AbstractResolvableFuture,java.lang.Object,java.lang.Object):1135 -> c
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/h;Ljava/lang/Object;Ljava/lang/Object;)Z"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/g;Ljava/lang/Object;Ljava/lang/Object;)Z"}
     1:18:boolean java.util.concurrent.atomic.AtomicReferenceFieldUpdater.compareAndSet(java.lang.Object,java.lang.Object,java.lang.Object):0:0 -> d
     1:18:boolean casWaiters(androidx.concurrent.futures.AbstractResolvableFuture,androidx.concurrent.futures.AbstractResolvableFuture$Waiter,androidx.concurrent.futures.AbstractResolvableFuture$Waiter):1125 -> d
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/h;Ld/g;Ld/g;)Z"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/g;Ld/f;Ld/f;)Z"}
     1:6:void putNext(androidx.concurrent.futures.AbstractResolvableFuture$Waiter,androidx.concurrent.futures.AbstractResolvableFuture$Waiter):1120:1120 -> g
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/g;Ld/g;)V"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/f;Ld/f;)V"}
     1:6:void putThread(androidx.concurrent.futures.AbstractResolvableFuture$Waiter,java.lang.Thread):1115:1115 -> h
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/g;Ljava/lang/Thread;)V"}
-androidx.concurrent.futures.AbstractResolvableFuture$SynchronizedHelper -> d.f:
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/f;Ljava/lang/Thread;)V"}
+androidx.concurrent.futures.AbstractResolvableFuture$SynchronizedHelper -> d.e:
 # {"id":"sourceFile","fileName":"AbstractResolvableFuture.java"}
     3:4:boolean casListeners(androidx.concurrent.futures.AbstractResolvableFuture,androidx.concurrent.futures.AbstractResolvableFuture$Listener,androidx.concurrent.futures.AbstractResolvableFuture$Listener):1172:1173 -> b
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/h;Ld/d;)Z"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/g;Ld/c;)Z"}
     5:7:boolean casListeners(androidx.concurrent.futures.AbstractResolvableFuture,androidx.concurrent.futures.AbstractResolvableFuture$Listener,androidx.concurrent.futures.AbstractResolvableFuture$Listener):1173:1173 -> b
     8:10:boolean casListeners(androidx.concurrent.futures.AbstractResolvableFuture,androidx.concurrent.futures.AbstractResolvableFuture$Listener,androidx.concurrent.futures.AbstractResolvableFuture$Listener):1174:1174 -> b
     11:15:boolean casListeners(androidx.concurrent.futures.AbstractResolvableFuture,androidx.concurrent.futures.AbstractResolvableFuture$Listener,androidx.concurrent.futures.AbstractResolvableFuture$Listener):1175:1175 -> b
     16:17:boolean casListeners(androidx.concurrent.futures.AbstractResolvableFuture,androidx.concurrent.futures.AbstractResolvableFuture$Listener,androidx.concurrent.futures.AbstractResolvableFuture$Listener):1177:1177 -> b
     18:19:boolean casListeners(androidx.concurrent.futures.AbstractResolvableFuture,androidx.concurrent.futures.AbstractResolvableFuture$Listener,androidx.concurrent.futures.AbstractResolvableFuture$Listener):1178:1178 -> b
     1:2:boolean casValue(androidx.concurrent.futures.AbstractResolvableFuture,java.lang.Object,java.lang.Object):1183:1184 -> c
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/h;Ljava/lang/Object;Ljava/lang/Object;)Z"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/g;Ljava/lang/Object;Ljava/lang/Object;)Z"}
     3:5:boolean casValue(androidx.concurrent.futures.AbstractResolvableFuture,java.lang.Object,java.lang.Object):1184:1184 -> c
     6:8:boolean casValue(androidx.concurrent.futures.AbstractResolvableFuture,java.lang.Object,java.lang.Object):1185:1185 -> c
     9:13:boolean casValue(androidx.concurrent.futures.AbstractResolvableFuture,java.lang.Object,java.lang.Object):1186:1186 -> c
     14:15:boolean casValue(androidx.concurrent.futures.AbstractResolvableFuture,java.lang.Object,java.lang.Object):1188:1188 -> c
     16:17:boolean casValue(androidx.concurrent.futures.AbstractResolvableFuture,java.lang.Object,java.lang.Object):1189:1189 -> c
     1:2:boolean casWaiters(androidx.concurrent.futures.AbstractResolvableFuture,androidx.concurrent.futures.AbstractResolvableFuture$Waiter,androidx.concurrent.futures.AbstractResolvableFuture$Waiter):1161:1162 -> d
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/h;Ld/g;Ld/g;)Z"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/g;Ld/f;Ld/f;)Z"}
     3:5:boolean casWaiters(androidx.concurrent.futures.AbstractResolvableFuture,androidx.concurrent.futures.AbstractResolvableFuture$Waiter,androidx.concurrent.futures.AbstractResolvableFuture$Waiter):1162:1162 -> d
     6:8:boolean casWaiters(androidx.concurrent.futures.AbstractResolvableFuture,androidx.concurrent.futures.AbstractResolvableFuture$Waiter,androidx.concurrent.futures.AbstractResolvableFuture$Waiter):1163:1163 -> d
     9:13:boolean casWaiters(androidx.concurrent.futures.AbstractResolvableFuture,androidx.concurrent.futures.AbstractResolvableFuture$Waiter,androidx.concurrent.futures.AbstractResolvableFuture$Waiter):1164:1164 -> d
     14:15:boolean casWaiters(androidx.concurrent.futures.AbstractResolvableFuture,androidx.concurrent.futures.AbstractResolvableFuture$Waiter,androidx.concurrent.futures.AbstractResolvableFuture$Waiter):1166:1166 -> d
     16:17:boolean casWaiters(androidx.concurrent.futures.AbstractResolvableFuture,androidx.concurrent.futures.AbstractResolvableFuture$Waiter,androidx.concurrent.futures.AbstractResolvableFuture$Waiter):1167:1167 -> d
     1:3:void putNext(androidx.concurrent.futures.AbstractResolvableFuture$Waiter,androidx.concurrent.futures.AbstractResolvableFuture$Waiter):1156:1156 -> g
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/g;Ld/g;)V"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/f;Ld/f;)V"}
     1:3:void putThread(androidx.concurrent.futures.AbstractResolvableFuture$Waiter,java.lang.Thread):1151:1151 -> h
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/g;Ljava/lang/Thread;)V"}
-androidx.concurrent.futures.AbstractResolvableFuture$Waiter -> d.g:
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/f;Ljava/lang/Thread;)V"}
+androidx.concurrent.futures.AbstractResolvableFuture$Waiter -> d.f:
 # {"id":"sourceFile","fileName":"AbstractResolvableFuture.java"}
     java.lang.Thread thread -> a
     androidx.concurrent.futures.AbstractResolvableFuture$Waiter next -> b
-      # {"id":"com.android.tools.r8.residualsignature","signature":"Ld/g;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ld/f;"}
     androidx.concurrent.futures.AbstractResolvableFuture$Waiter TOMBSTONE -> c
-      # {"id":"com.android.tools.r8.residualsignature","signature":"Ld/g;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ld/f;"}
     1:2:void <clinit>():121:121 -> <clinit>
     3:5:void <init>(boolean):132:132 -> <clinit>
     3:5:void <clinit>():121 -> <clinit>
     6:8:void <clinit>():121:121 -> <clinit>
     1:3:void <init>():135:135 -> <init>
     4:13:void <init>():137:137 -> <init>
-androidx.concurrent.futures.ResolvableFuture -> d.i:
+androidx.concurrent.futures.ResolvableFuture -> d.h:
 # {"id":"sourceFile","fileName":"ResolvableFuture.java"}
 androidx.core.app.CoreComponentFactory -> androidx.core.app.CoreComponentFactory:
 # {"id":"sourceFile","fileName":"CoreComponentFactory.java"}
@@ -4224,7 +4173,7 @@ androidx.profileinstaller.ProfileInstallerInitializer$Handler28Impl$$ExternalSyn
 androidx.profileinstaller.ProfileVerifier -> m.p:
 # {"id":"sourceFile","fileName":"ProfileVerifier.java"}
     androidx.concurrent.futures.ResolvableFuture sFuture -> a
-      # {"id":"com.android.tools.r8.residualsignature","signature":"Ld/i;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ld/h;"}
     java.lang.Object SYNC_OBJ -> b
     androidx.profileinstaller.ProfileVerifier$CompilationStatus sCompilationStatus -> c
       # {"id":"com.android.tools.r8.residualsignature","signature":"Lm/f;"}
@@ -18717,11 +18666,14 @@ com.honeypie.launcher.MainActivity -> com.honeypie.launcher.MainActivity:
     1:3:com.honeypie.launcher.AppRepository access$getRepository$p(com.honeypie.launcher.MainActivity):26:26 -> access$getRepository$p
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/honeypie/launcher/MainActivity;)Ls/e;"}
     1:4:void access$updateList(com.honeypie.launcher.MainActivity):26:26 -> access$updateList
-    1:22:void onBackPressed():94:94 -> onBackPressed
-    23:33:void onBackPressed():95:95 -> onBackPressed
-    34:45:void onBackPressed():96:96 -> onBackPressed
-    46:50:void onBackPressed():95:95 -> onBackPressed
-    51:54:void onBackPressed():94:94 -> onBackPressed
+    1:22:void onBackPressed():95:95 -> onBackPressed
+    23:33:void onBackPressed():96:96 -> onBackPressed
+    34:40:void onBackPressed():97:97 -> onBackPressed
+    41:56:void onBackPressed():98:98 -> onBackPressed
+    57:74:void onBackPressed():99:99 -> onBackPressed
+    75:78:void onBackPressed():97:97 -> onBackPressed
+    79:83:void onBackPressed():96:96 -> onBackPressed
+    84:87:void onBackPressed():95:95 -> onBackPressed
     1:5:void onCreate(android.os.Bundle):41:41 -> onCreate
     6:8:void onCreate(android.os.Bundle):42:42 -> onCreate
     9:24:void onCreate(android.os.Bundle):45:45 -> onCreate
@@ -18770,80 +18722,54 @@ com.honeypie.launcher.MainActivity -> com.honeypie.launcher.MainActivity:
     78:80:kotlin.Unit onCreate$lambda$0(com.honeypie.launcher.MainActivity,com.honeypie.launcher.AppInfo):51:51 -> onCreate$lambda$0
     1:3:void onDestroy():84:84 -> onDestroy
     4:9:void onDestroy():85:85 -> onDestroy
-    1:3:void onResume():106:106 -> onResume
-    4:18:void onResume():107:107 -> onResume
-    1:13:void updateList():115:115 -> updateList
-    14:17:void updateList():116:116 -> updateList
-    18:19:java.util.List com.honeypie.launcher.AppRepository.getApps():21:21 -> updateList
-    18:19:void updateList():116 -> updateList
+    1:3:void onResume():109:109 -> onResume
+    4:13:void onResume():110:110 -> onResume
+    14:29:void onResume():111:111 -> onResume
+    30:47:void onResume():112:112 -> onResume
+    48:51:void onResume():110:110 -> onResume
+    1:9:void updateList():120:120 -> updateList
+    10:13:void updateList():121:121 -> updateList
+    14:15:java.util.List com.honeypie.launcher.AppRepository.getApps():21:21 -> updateList
+    14:15:void updateList():121 -> updateList
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
-    20:26:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.String):0:0 -> updateList
-    20:26:void updateList():116 -> updateList
-    27:36:boolean kotlin.text.StringsKt__StringsKt.isBlank(java.lang.CharSequence):1711:1711 -> updateList
-    27:36:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.String):14 -> updateList
-    27:36:void updateList():116 -> updateList
+    16:18:void updateList():121:121 -> updateList
+    19:26:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.CharSequence):14:14 -> updateList
+    19:26:void updateList():121 -> updateList
+    27:36:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.CharSequence):26:26 -> updateList
+    27:36:void updateList():121 -> updateList
     37:49:boolean kotlin.text.CharsKt__CharJVMKt.isWhitespace(char):103:103 -> updateList
-    37:49:boolean kotlin.text.StringsKt__StringsKt.isBlank(java.lang.CharSequence):312 -> updateList
-    37:49:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.String):14 -> updateList
-    37:49:void updateList():116 -> updateList
-    50:60:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.String):16:16 -> updateList
-    50:60:void updateList():116 -> updateList
-    61:77:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.String):17:17 -> updateList
-    61:77:void updateList():116 -> updateList
-    78:79:java.lang.String com.honeypie.launcher.AppInfo.getLabel():10:10 -> updateList
-    78:79:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.String):18 -> updateList
+    37:49:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.CharSequence):14 -> updateList
+    37:49:void updateList():121 -> updateList
+    50:60:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.CharSequence):16:16 -> updateList
+    50:60:void updateList():121 -> updateList
+    61:76:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.CharSequence):17:17 -> updateList
+    61:76:void updateList():121 -> updateList
+    77:78:java.lang.String com.honeypie.launcher.AppInfo.getLabel():10:10 -> updateList
+    77:78:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.CharSequence):18 -> updateList
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
-    78:79:void updateList():116 -> updateList
-    80:84:boolean kotlin.text.StringsKt__StringsKt.contains(java.lang.CharSequence,java.lang.CharSequence,boolean):0:0 -> updateList
-    80:84:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.String):18 -> updateList
-    80:84:void updateList():116 -> updateList
-    85:88:int kotlin.text.StringsKt__StringsKt.indexOf(java.lang.CharSequence,java.lang.String,int,boolean):1134:1134 -> updateList
-    85:88:int kotlin.text.StringsKt__StringsKt.indexOf$default(java.lang.CharSequence,java.lang.String,int,boolean,int,java.lang.Object):1132 -> updateList
-    85:88:boolean kotlin.text.StringsKt__StringsKt.contains(java.lang.CharSequence,java.lang.CharSequence,boolean):1177 -> updateList
-    85:88:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.String):18 -> updateList
-    85:88:void updateList():116 -> updateList
-    89:98:int kotlin.text.StringsKt__StringsKt.indexOf$StringsKt__StringsKt(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean):1005:1005 -> updateList
-    89:98:int kotlin.text.StringsKt__StringsKt.indexOf$StringsKt__StringsKt$default(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean,int,java.lang.Object):1003 -> updateList
-    89:98:int kotlin.text.StringsKt__StringsKt.indexOf(java.lang.CharSequence,java.lang.String,int,boolean):1134 -> updateList
-    89:98:int kotlin.text.StringsKt__StringsKt.indexOf$default(java.lang.CharSequence,java.lang.String,int,boolean,int,java.lang.Object):1132 -> updateList
-    89:98:boolean kotlin.text.StringsKt__StringsKt.contains(java.lang.CharSequence,java.lang.CharSequence,boolean):1177 -> updateList
-    89:98:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.String):18 -> updateList
-    89:98:void updateList():116 -> updateList
-    99:101:void kotlin.ranges.IntRange.<init>(int,int):53:53 -> updateList
-    99:101:int kotlin.text.StringsKt__StringsKt.indexOf$StringsKt__StringsKt(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean):1005 -> updateList
-    99:101:int kotlin.text.StringsKt__StringsKt.indexOf$StringsKt__StringsKt$default(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean,int,java.lang.Object):1003 -> updateList
-    99:101:int kotlin.text.StringsKt__StringsKt.indexOf(java.lang.CharSequence,java.lang.String,int,boolean):1134 -> updateList
-    99:101:int kotlin.text.StringsKt__StringsKt.indexOf$default(java.lang.CharSequence,java.lang.String,int,boolean,int,java.lang.Object):1132 -> updateList
-    99:101:boolean kotlin.text.StringsKt__StringsKt.contains(java.lang.CharSequence,java.lang.CharSequence,boolean):1177 -> updateList
-    99:101:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.String):18 -> updateList
-    99:101:void updateList():116 -> updateList
-    102:107:int kotlin.text.StringsKt__StringsKt.indexOf$StringsKt__StringsKt(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean):1009:1009 -> updateList
-    102:107:int kotlin.text.StringsKt__StringsKt.indexOf$StringsKt__StringsKt$default(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean,int,java.lang.Object):1003 -> updateList
-    102:107:int kotlin.text.StringsKt__StringsKt.indexOf(java.lang.CharSequence,java.lang.String,int,boolean):1134 -> updateList
-    102:107:int kotlin.text.StringsKt__StringsKt.indexOf$default(java.lang.CharSequence,java.lang.String,int,boolean,int,java.lang.Object):1132 -> updateList
-    102:107:boolean kotlin.text.StringsKt__StringsKt.contains(java.lang.CharSequence,java.lang.CharSequence,boolean):1177 -> updateList
-    102:107:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.String):18 -> updateList
-    102:107:void updateList():116 -> updateList
-    108:113:int kotlin.text.StringsKt__StringsKt.indexOf$StringsKt__StringsKt(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean):1011:1011 -> updateList
-    108:113:int kotlin.text.StringsKt__StringsKt.indexOf$StringsKt__StringsKt$default(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean,int,java.lang.Object):1003 -> updateList
-    108:113:int kotlin.text.StringsKt__StringsKt.indexOf(java.lang.CharSequence,java.lang.String,int,boolean):1134 -> updateList
-    108:113:int kotlin.text.StringsKt__StringsKt.indexOf$default(java.lang.CharSequence,java.lang.String,int,boolean,int,java.lang.Object):1132 -> updateList
-    108:113:boolean kotlin.text.StringsKt__StringsKt.contains(java.lang.CharSequence,java.lang.CharSequence,boolean):1177 -> updateList
-    108:113:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.String):18 -> updateList
-    108:113:void updateList():116 -> updateList
-    114:128:boolean kotlin.text.StringsKt__StringsJVMKt.regionMatches(java.lang.String,int,java.lang.String,int,int,boolean):651:651 -> updateList
-    114:128:int kotlin.text.StringsKt__StringsKt.indexOf$StringsKt__StringsKt(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean):1011 -> updateList
-    114:128:int kotlin.text.StringsKt__StringsKt.indexOf$StringsKt__StringsKt$default(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean,int,java.lang.Object):1003 -> updateList
-    114:128:int kotlin.text.StringsKt__StringsKt.indexOf(java.lang.CharSequence,java.lang.String,int,boolean):1134 -> updateList
-    114:128:int kotlin.text.StringsKt__StringsKt.indexOf$default(java.lang.CharSequence,java.lang.String,int,boolean,int,java.lang.Object):1132 -> updateList
-    114:128:boolean kotlin.text.StringsKt__StringsKt.contains(java.lang.CharSequence,java.lang.CharSequence,boolean):1177 -> updateList
-    114:128:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.String):18 -> updateList
-    114:128:void updateList():116 -> updateList
-    129:137:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.String):19:19 -> updateList
-    129:137:void updateList():116 -> updateList
-    138:151:void updateList():117:117 -> updateList
-    152:157:void updateList():116:116 -> updateList
-    158:163:void updateList():115:115 -> updateList
+    77:78:void updateList():121 -> updateList
+    79:83:boolean kotlin.text.StringsKt__StringsKt.contains(java.lang.CharSequence,java.lang.CharSequence,boolean):0:0 -> updateList
+    79:83:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.CharSequence):18 -> updateList
+    79:83:void updateList():121 -> updateList
+    84:87:boolean kotlin.text.StringsKt__StringsKt.contains(java.lang.CharSequence,java.lang.CharSequence,boolean):1176:1176 -> updateList
+    84:87:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.CharSequence):18 -> updateList
+    84:87:void updateList():121 -> updateList
+    88:90:boolean kotlin.text.StringsKt__StringsKt.contains(java.lang.CharSequence,java.lang.CharSequence,boolean):1177:1177 -> updateList
+    88:90:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.CharSequence):18 -> updateList
+    88:90:void updateList():121 -> updateList
+    91:101:int kotlin.text.StringsKt__StringsKt.indexOf(java.lang.CharSequence,java.lang.String,int,boolean):1134:1134 -> updateList
+    91:101:int kotlin.text.StringsKt__StringsKt.indexOf$default(java.lang.CharSequence,java.lang.String,int,boolean,int,java.lang.Object):1132 -> updateList
+    91:101:boolean kotlin.text.StringsKt__StringsKt.contains(java.lang.CharSequence,java.lang.CharSequence,boolean):1177 -> updateList
+    91:101:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.CharSequence):18 -> updateList
+    91:101:void updateList():121 -> updateList
+    102:111:boolean kotlin.text.StringsKt__StringsKt.contains(java.lang.CharSequence,java.lang.CharSequence,boolean):1179:1179 -> updateList
+    102:111:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.CharSequence):18 -> updateList
+    102:111:void updateList():121 -> updateList
+    112:120:java.util.List com.honeypie.launcher.SearchManager.filter(java.util.List,java.lang.CharSequence):19:19 -> updateList
+    112:120:void updateList():121 -> updateList
+    121:134:void updateList():122:122 -> updateList
+    135:140:void updateList():121:121 -> updateList
+    141:146:void updateList():120:120 -> updateList
 com.honeypie.launcher.MainActivity$$ExternalSyntheticLambda0 -> s.f:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
@@ -19264,7 +19190,109 @@ kotlin.sequences.SequencesKt__SequenceBuilderKt$sequence$$inlined$Sequence$1 -> 
 # {"id":"sourceFile","fileName":"Sequences.kt"}
 kotlin.text.CharsKt__CharJVMKt -> R8$$REMOVED$$CLASS$$44:
 # {"id":"sourceFile","fileName":"CharJVM.kt"}
-kotlin.text.StringsKt__StringsJVMKt -> R8$$REMOVED$$CLASS$$45:
-# {"id":"sourceFile","fileName":"StringsJVM.kt"}
-kotlin.text.StringsKt__StringsKt -> R8$$REMOVED$$CLASS$$46:
+kotlin.text.CharsKt__CharKt -> R8$$REMOVED$$CLASS$$45:
+# {"id":"sourceFile","fileName":"Char.kt"}
+kotlin.text.StringsKt__AppendableKt -> A.a:
+# {"id":"sourceFile","fileName":"Appendable.kt"}
+    long androidx.tracing.Trace.sTraceTagApp -> a
+    java.lang.reflect.Method androidx.tracing.Trace.sIsTagEnabledMethod -> b
+    1:2:java.util.Iterator kotlin.sequences.SequencesKt__SequenceBuilderKt.iterator(kotlin.jvm.functions.Function2):37:37 -> a
+    1:2:java.util.Iterator kotlin.sequences.SequencesKt__SequenceBuilderKt$sequence$$inlined$Sequence$1.iterator():23 -> a
+    1:2:void androidx.customview.poolingcontainer.PoolingContainer.callPoolingContainerOnRelease(android.view.View):155 -> a
+    3:5:void kotlin.sequences.SequenceScope.<init>():53:53 -> a
+    3:5:void kotlin.sequences.SequenceBuilderIterator.<init>():104 -> a
+    3:5:java.util.Iterator kotlin.sequences.SequencesKt__SequenceBuilderKt.iterator(kotlin.jvm.functions.Function2):37 -> a
+    3:5:java.util.Iterator kotlin.sequences.SequencesKt__SequenceBuilderKt$sequence$$inlined$Sequence$1.iterator():23 -> a
+    3:5:void androidx.customview.poolingcontainer.PoolingContainer.callPoolingContainerOnRelease(android.view.View):155 -> a
+    6:12:kotlin.coroutines.Continuation androidx.core.view.ViewKt$allViews$1.create(java.lang.Object,kotlin.coroutines.Continuation):0:0 -> a
+    6:12:kotlin.coroutines.Continuation kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(kotlin.jvm.functions.Function2,java.lang.Object,kotlin.coroutines.Continuation):163 -> a
+    6:12:java.util.Iterator kotlin.sequences.SequencesKt__SequenceBuilderKt.iterator(kotlin.jvm.functions.Function2):38 -> a
+    6:12:java.util.Iterator kotlin.sequences.SequencesKt__SequenceBuilderKt$sequence$$inlined$Sequence$1.iterator():23 -> a
+    6:12:void androidx.customview.poolingcontainer.PoolingContainer.callPoolingContainerOnRelease(android.view.View):155 -> a
+    13:14:void kotlin.sequences.SequenceBuilderIterator.setNextStep(kotlin.coroutines.Continuation):108:108 -> a
+    13:14:java.util.Iterator kotlin.sequences.SequencesKt__SequenceBuilderKt.iterator(kotlin.jvm.functions.Function2):38 -> a
+    13:14:java.util.Iterator kotlin.sequences.SequencesKt__SequenceBuilderKt$sequence$$inlined$Sequence$1.iterator():23 -> a
+    13:14:void androidx.customview.poolingcontainer.PoolingContainer.callPoolingContainerOnRelease(android.view.View):155 -> a
+    15:29:void androidx.customview.poolingcontainer.PoolingContainer.callPoolingContainerOnRelease(android.view.View):155:155 -> a
+    30:37:androidx.customview.poolingcontainer.PoolingContainerListenerHolder androidx.customview.poolingcontainer.PoolingContainer.getPoolingContainerListenerHolder(android.view.View):145:145 -> a
+    30:37:void androidx.customview.poolingcontainer.PoolingContainer.callPoolingContainerOnRelease(android.view.View):105 -> a
+    38:42:androidx.customview.poolingcontainer.PoolingContainerListenerHolder androidx.customview.poolingcontainer.PoolingContainer.getPoolingContainerListenerHolder(android.view.View):147:147 -> a
+    38:42:void androidx.customview.poolingcontainer.PoolingContainer.callPoolingContainerOnRelease(android.view.View):105 -> a
+    43:45:androidx.customview.poolingcontainer.PoolingContainerListenerHolder androidx.customview.poolingcontainer.PoolingContainer.getPoolingContainerListenerHolder(android.view.View):148:148 -> a
+    43:45:void androidx.customview.poolingcontainer.PoolingContainer.callPoolingContainerOnRelease(android.view.View):105 -> a
+    46:52:void androidx.customview.poolingcontainer.PoolingContainerListenerHolder.onRelease():136:136 -> a
+    46:52:void androidx.customview.poolingcontainer.PoolingContainer.callPoolingContainerOnRelease(android.view.View):105 -> a
+    53:62:int kotlin.collections.CollectionsKt__CollectionsKt.getLastIndex(java.util.List):236:236 -> a
+    53:62:void androidx.customview.poolingcontainer.PoolingContainerListenerHolder.onRelease():136 -> a
+    53:62:void androidx.customview.poolingcontainer.PoolingContainer.callPoolingContainerOnRelease(android.view.View):105 -> a
+    63:76:void androidx.customview.poolingcontainer.PoolingContainerListenerHolder.onRelease():137:137 -> a
+    63:76:void androidx.customview.poolingcontainer.PoolingContainer.callPoolingContainerOnRelease(android.view.View):105 -> a
+    boolean androidx.concurrent.futures.AbstractResolvableFuture$AtomicHelper.casListeners(androidx.concurrent.futures.AbstractResolvableFuture,androidx.concurrent.futures.AbstractResolvableFuture$Listener,androidx.concurrent.futures.AbstractResolvableFuture$Listener) -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/g;Ld/c;)Z"}
+    boolean androidx.concurrent.futures.AbstractResolvableFuture$AtomicHelper.casValue(androidx.concurrent.futures.AbstractResolvableFuture,java.lang.Object,java.lang.Object) -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/g;Ljava/lang/Object;Ljava/lang/Object;)Z"}
+    boolean androidx.concurrent.futures.AbstractResolvableFuture$AtomicHelper.casWaiters(androidx.concurrent.futures.AbstractResolvableFuture,androidx.concurrent.futures.AbstractResolvableFuture$Waiter,androidx.concurrent.futures.AbstractResolvableFuture$Waiter) -> d
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/g;Ld/f;Ld/f;)Z"}
+    1:6:float androidx.core.widget.EdgeEffectCompat.getDistance(android.widget.EdgeEffect):89:89 -> e
+    7:13:float androidx.core.widget.EdgeEffectCompat.getDistance(android.widget.EdgeEffect):90:90 -> e
+    1:6:float androidx.core.widget.EdgeEffectCompat.onPullDistance(android.widget.EdgeEffect,float,float):245:245 -> f
+    7:11:float androidx.core.widget.EdgeEffectCompat.onPullDistance(android.widget.EdgeEffect,float,float):246:246 -> f
+    12:15:void androidx.core.widget.EdgeEffectCompat.onPull(android.widget.EdgeEffect,float,float):197:197 -> f
+    12:15:float androidx.core.widget.EdgeEffectCompat.onPullDistance(android.widget.EdgeEffect,float,float):248 -> f
+    void androidx.concurrent.futures.AbstractResolvableFuture$AtomicHelper.putNext(androidx.concurrent.futures.AbstractResolvableFuture$Waiter,androidx.concurrent.futures.AbstractResolvableFuture$Waiter) -> g
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/f;Ld/f;)V"}
+    void androidx.concurrent.futures.AbstractResolvableFuture$AtomicHelper.putThread(androidx.concurrent.futures.AbstractResolvableFuture$Waiter,java.lang.Thread) -> h
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld/f;Ljava/lang/Thread;)V"}
+kotlin.text.StringsKt__IndentKt -> A.b:
+# {"id":"sourceFile","fileName":"Indent.kt"}
+kotlin.text.StringsKt__RegexExtensionsJVMKt -> A.c:
+# {"id":"sourceFile","fileName":"RegexExtensionsJVM.kt"}
+kotlin.text.StringsKt__RegexExtensionsKt -> A.d:
+# {"id":"sourceFile","fileName":"RegexExtensions.kt"}
+kotlin.text.StringsKt__StringBuilderJVMKt -> A.e:
+# {"id":"sourceFile","fileName":"StringBuilderJVM.kt"}
+kotlin.text.StringsKt__StringBuilderKt -> A.f:
+# {"id":"sourceFile","fileName":"StringBuilder.kt"}
+kotlin.text.StringsKt__StringNumberConversionsJVMKt -> A.g:
+# {"id":"sourceFile","fileName":"StringNumberConversionsJVM.kt"}
+kotlin.text.StringsKt__StringsKt -> A.h:
 # {"id":"sourceFile","fileName":"Strings.kt"}
+    1:11:int indexOf$StringsKt__StringsKt(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean):1005:1005 -> i
+    1:11:int indexOf$StringsKt__StringsKt$default(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean,int,java.lang.Object):1003 -> i
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/String;Ljava/lang/CharSequence;I)I"}
+    12:14:void kotlin.ranges.IntRange.<init>(int,int):53:53 -> i
+    12:14:int indexOf$StringsKt__StringsKt(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean):1005 -> i
+    12:14:int indexOf$StringsKt__StringsKt$default(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean,int,java.lang.Object):1003 -> i
+    15:29:int indexOf$StringsKt__StringsKt(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean):1009:1009 -> i
+    15:29:int indexOf$StringsKt__StringsKt$default(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean,int,java.lang.Object):1003 -> i
+    30:36:int indexOf$StringsKt__StringsKt(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean):1011:1011 -> i
+    30:36:int indexOf$StringsKt__StringsKt$default(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean,int,java.lang.Object):1003 -> i
+    37:42:boolean kotlin.text.StringsKt__StringsJVMKt.regionMatches(java.lang.String,int,java.lang.String,int,int,boolean):0:0 -> i
+    37:42:int indexOf$StringsKt__StringsKt(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean):1011 -> i
+    37:42:int indexOf$StringsKt__StringsKt$default(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean,int,java.lang.Object):1003 -> i
+    43:60:boolean kotlin.text.StringsKt__StringsJVMKt.regionMatches(java.lang.String,int,java.lang.String,int,int,boolean):651:651 -> i
+    43:60:int indexOf$StringsKt__StringsKt(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean):1011 -> i
+    43:60:int indexOf$StringsKt__StringsKt$default(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean,int,java.lang.Object):1003 -> i
+    61:64:int indexOf$StringsKt__StringsKt(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean):1016:1016 -> i
+    61:64:int indexOf$StringsKt__StringsKt$default(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean,int,java.lang.Object):1003 -> i
+    65:69:boolean regionMatchesImpl(java.lang.CharSequence,int,java.lang.CharSequence,int,int,boolean):0:0 -> i
+    65:69:int indexOf$StringsKt__StringsKt(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean):1016 -> i
+    65:69:int indexOf$StringsKt__StringsKt$default(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean,int,java.lang.Object):1003 -> i
+    70:87:boolean regionMatchesImpl(java.lang.CharSequence,int,java.lang.CharSequence,int,int,boolean):852:852 -> i
+    70:87:int indexOf$StringsKt__StringsKt(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean):1016 -> i
+    70:87:int indexOf$StringsKt__StringsKt$default(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean,int,java.lang.Object):1003 -> i
+    88:100:boolean regionMatchesImpl(java.lang.CharSequence,int,java.lang.CharSequence,int,int,boolean):857:857 -> i
+    88:100:int indexOf$StringsKt__StringsKt(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean):1016 -> i
+    88:100:int indexOf$StringsKt__StringsKt$default(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean,int,java.lang.Object):1003 -> i
+    101:104:boolean kotlin.text.CharsKt__CharKt.equals(char,char,boolean):237:237 -> i
+    101:104:boolean regionMatchesImpl(java.lang.CharSequence,int,java.lang.CharSequence,int,int,boolean):857 -> i
+    101:104:int indexOf$StringsKt__StringsKt(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean):1016 -> i
+    101:104:int indexOf$StringsKt__StringsKt$default(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean,int,java.lang.Object):1003 -> i
+    105:110:boolean kotlin.text.CharsKt__CharKt.equals(char,char,boolean):238:238 -> i
+    105:110:boolean regionMatchesImpl(java.lang.CharSequence,int,java.lang.CharSequence,int,int,boolean):857 -> i
+    105:110:int indexOf$StringsKt__StringsKt(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean):1016 -> i
+    105:110:int indexOf$StringsKt__StringsKt$default(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean,int,java.lang.Object):1003 -> i
+    111:131:boolean kotlin.text.CharsKt__CharKt.equals(char,char,boolean):240:240 -> i
+    111:131:boolean regionMatchesImpl(java.lang.CharSequence,int,java.lang.CharSequence,int,int,boolean):857 -> i
+    111:131:int indexOf$StringsKt__StringsKt(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean):1016 -> i
+    111:131:int indexOf$StringsKt__StringsKt$default(java.lang.CharSequence,java.lang.CharSequence,int,int,boolean,boolean,int,java.lang.Object):1003 -> i

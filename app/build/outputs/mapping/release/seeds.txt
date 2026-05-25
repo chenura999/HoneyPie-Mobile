@@ -1,134 +1,134 @@
-androidx.startup.InitializationProvider
-com.honeypie.launcher.MainActivity
-androidx.profileinstaller.ProfileInstallReceiver
-androidx.lifecycle.CompositeGeneratedAdaptersObserver
-androidx.profileinstaller.ProfileInstallerInitializer
 androidx.core.app.RemoteActionCompatParcelizer
-androidx.core.graphics.drawable.IconCompat
 androidx.lifecycle.DefaultLifecycleObserverAdapter
-android.support.v4.app.RemoteActionCompatParcelizer
-androidx.versionedparcelable.CustomVersionedParcelable
-androidx.core.app.CoreComponentFactory
-androidx.lifecycle.SingleGeneratedAdapterObserver
-androidx.versionedparcelable.ParcelImpl
-androidx.annotation.Keep
-androidx.recyclerview.widget.StaggeredGridLayoutManager
-android.support.v4.graphics.drawable.IconCompatParcelizer
+androidx.recyclerview.widget.LinearLayoutManager
 androidx.recyclerview.widget.GridLayoutManager
+androidx.startup.InitializationProvider
+androidx.recyclerview.widget.StaggeredGridLayoutManager
+androidx.lifecycle.CompositeGeneratedAdaptersObserver
+android.support.v4.graphics.drawable.IconCompatParcelizer
+androidx.core.app.CoreComponentFactory
+androidx.lifecycle.ReflectiveGenericLifecycleObserver
 androidx.recyclerview.widget.RecyclerView
+androidx.lifecycle.SingleGeneratedAdapterObserver
+androidx.profileinstaller.ProfileInstallReceiver
+android.support.v4.app.RemoteActionCompatParcelizer
 androidx.lifecycle.LifecycleCoroutineScopeImpl
 androidx.core.app.RemoteActionCompat
+androidx.versionedparcelable.CustomVersionedParcelable
 androidx.core.graphics.drawable.IconCompatParcelizer
-androidx.recyclerview.widget.LinearLayoutManager
-androidx.lifecycle.ReflectiveGenericLifecycleObserver
-com.honeypie.launcher.MainActivity: com.honeypie.launcher.AppRepository repository
-androidx.concurrent.futures.AbstractResolvableFuture: androidx.concurrent.futures.AbstractResolvableFuture$Listener listeners
-androidx.concurrent.futures.AbstractResolvableFuture$Waiter: java.lang.Thread thread
-androidx.recyclerview.widget.StaggeredGridLayoutManager$SavedState: android.os.Parcelable$Creator CREATOR
-androidx.concurrent.futures.AbstractResolvableFuture$Waiter: androidx.concurrent.futures.AbstractResolvableFuture$Waiter next
-androidx.recyclerview.widget.StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem: android.os.Parcelable$Creator CREATOR
-androidx.concurrent.futures.AbstractResolvableFuture: java.lang.Object value
+androidx.annotation.Keep
+androidx.versionedparcelable.ParcelImpl
+androidx.profileinstaller.ProfileInstallerInitializer
+androidx.core.graphics.drawable.IconCompat
+com.honeypie.launcher.MainActivity
 com.honeypie.launcher.MainActivity: android.widget.EditText searchEditText
-com.honeypie.launcher.MainActivity: com.honeypie.launcher.MainActivity$packageReceiver$1 packageReceiver
-androidx.recyclerview.widget.RecyclerView$SavedState: android.os.Parcelable$Creator CREATOR
-com.honeypie.launcher.MainActivity: com.honeypie.launcher.AppAdapter adapter
+androidx.concurrent.futures.AbstractResolvableFuture: androidx.concurrent.futures.AbstractResolvableFuture$Listener listeners
+androidx.customview.view.AbsSavedState: android.os.Parcelable$Creator CREATOR
+androidx.recyclerview.widget.StaggeredGridLayoutManager$SavedState: android.os.Parcelable$Creator CREATOR
 androidx.concurrent.futures.AbstractResolvableFuture: androidx.concurrent.futures.AbstractResolvableFuture$Waiter waiters
 androidx.versionedparcelable.ParcelImpl: android.os.Parcelable$Creator CREATOR
+androidx.recyclerview.widget.RecyclerView$SavedState: android.os.Parcelable$Creator CREATOR
 androidx.recyclerview.widget.LinearLayoutManager$SavedState: android.os.Parcelable$Creator CREATOR
-androidx.customview.view.AbsSavedState: android.os.Parcelable$Creator CREATOR
-androidx.core.graphics.drawable.IconCompat: IconCompat()
-androidx.recyclerview.widget.RecyclerView: void setItemAnimator(androidx.recyclerview.widget.RecyclerView$ItemAnimator)
-androidx.recyclerview.widget.RecyclerView: void setDebugAssertionsEnabled(boolean)
-androidx.core.view.ViewCompat$Api29Impl: android.view.View$AccessibilityDelegate getAccessibilityDelegate(android.view.View)
-androidx.recyclerview.widget.RecyclerView: void setEdgeEffectFactory(androidx.recyclerview.widget.RecyclerView$EdgeEffectFactory)
-androidx.core.view.ViewCompat$Api26Impl: int getImportantForAutofill(android.view.View)
-androidx.core.view.ViewCompat$Api28Impl: boolean isScreenReaderFocusable(android.view.View)
-androidx.recyclerview.widget.RecyclerView: void setAccessibilityDelegateCompat(androidx.recyclerview.widget.RecyclerViewAccessibilityDelegate)
-androidx.recyclerview.widget.RecyclerView: void setChildDrawingOrderCallback(androidx.recyclerview.widget.RecyclerView$ChildDrawingOrderCallback)
-androidx.core.graphics.drawable.IconCompatParcelizer: IconCompatParcelizer()
-androidx.core.widget.EdgeEffectCompat$Api31Impl: float getDistance(android.widget.EdgeEffect)
-androidx.core.widget.EdgeEffectCompat$Api31Impl: float onPullDistance(android.widget.EdgeEffect,float,float)
-androidx.recyclerview.widget.RecyclerView: RecyclerView(android.content.Context,android.util.AttributeSet)
-androidx.recyclerview.widget.RecyclerView: void setOnScrollListener(androidx.recyclerview.widget.RecyclerView$OnScrollListener)
-androidx.recyclerview.widget.RecyclerView: void setViewCacheExtension(androidx.recyclerview.widget.RecyclerView$ViewCacheExtension)
-androidx.tracing.TraceApi29Impl: boolean isEnabled()
-com.honeypie.launcher.MainActivity: com.honeypie.launcher.AppRepository access$getRepository$p(com.honeypie.launcher.MainActivity)
-androidx.recyclerview.widget.RecyclerView: androidx.recyclerview.widget.RecyclerView$Adapter getAdapter()
-androidx.core.app.RemoteActionCompatParcelizer: void write(androidx.core.app.RemoteActionCompat,androidx.versionedparcelable.VersionedParcel)
-androidx.profileinstaller.FileSectionType: androidx.profileinstaller.FileSectionType[] values()
-com.honeypie.launcher.MainActivity: void updateList()
-androidx.startup.InitializationProvider: InitializationProvider()
-androidx.core.view.ViewCompat$Api21Impl: void stopNestedScroll(android.view.View)
-androidx.recyclerview.widget.RecyclerView$Adapter$StateRestorationPolicy: androidx.recyclerview.widget.RecyclerView$Adapter$StateRestorationPolicy[] values()
-com.honeypie.launcher.MainActivity: MainActivity()
-androidx.recyclerview.widget.LinearLayoutManager: LinearLayoutManager(android.content.Context,android.util.AttributeSet,int,int)
-androidx.recyclerview.widget.RecyclerView: void setScrollState(int)
-androidx.profileinstaller.ProfileInstallerInitializer$Handler28Impl: android.os.Handler createAsync(android.os.Looper)
-androidx.recyclerview.widget.RecyclerView: androidx.recyclerview.widget.RecyclerView$OnFlingListener getOnFlingListener()
-androidx.recyclerview.widget.RecyclerView: void setRecycledViewPool(androidx.recyclerview.widget.RecyclerView$RecycledViewPool)
-androidx.recyclerview.widget.RecyclerView: void setLayoutTransition(android.animation.LayoutTransition)
-androidx.recyclerview.widget.RecyclerView: int getMaxFlingVelocity()
-androidx.recyclerview.widget.RecyclerView: androidx.recyclerview.widget.RecyclerView$EdgeEffectFactory getEdgeEffectFactory()
-androidx.recyclerview.widget.RecyclerView: boolean isLayoutSuppressed()
-androidx.recyclerview.widget.RecyclerView: void setClipToPadding(boolean)
-android.support.v4.graphics.drawable.IconCompatParcelizer: void write(androidx.core.graphics.drawable.IconCompat,androidx.versionedparcelable.VersionedParcel)
-androidx.recyclerview.widget.RecyclerView: void setHasFixedSize(boolean)
-kotlin.coroutines.intrinsics.CoroutineSingletons: kotlin.coroutines.intrinsics.CoroutineSingletons valueOf(java.lang.String)
-android.support.v4.app.RemoteActionCompatParcelizer: void write(androidx.core.app.RemoteActionCompat,androidx.versionedparcelable.VersionedParcel)
-androidx.profileinstaller.ProfileInstallReceiver: ProfileInstallReceiver()
-androidx.core.widget.EdgeEffectCompat$Api21Impl: void onPull(android.widget.EdgeEffect,float,float)
-androidx.recyclerview.widget.RecyclerView: int getItemDecorationCount()
-androidx.recyclerview.widget.RecyclerView: androidx.recyclerview.widget.RecyclerView$LayoutManager getLayoutManager()
-androidx.recyclerview.widget.RecyclerView: androidx.core.view.NestedScrollingChildHelper getScrollingChildHelper()
-androidx.core.graphics.drawable.IconCompatParcelizer: void write(androidx.core.graphics.drawable.IconCompat,androidx.versionedparcelable.VersionedParcel)
-androidx.recyclerview.widget.RecyclerView: boolean getClipToPadding()
-android.support.v4.app.RemoteActionCompatParcelizer: androidx.core.app.RemoteActionCompat read(androidx.versionedparcelable.VersionedParcel)
-kotlin.coroutines.intrinsics.CoroutineSingletons: kotlin.coroutines.intrinsics.CoroutineSingletons[] values()
-androidx.recyclerview.widget.RecyclerView: void setVerboseLoggingEnabled(boolean)
-androidx.recyclerview.widget.RecyclerView$Api35Impl: void setFrameContentVelocity(android.view.View,float)
-androidx.core.view.ViewCompat$Api29Impl: void saveAttributeDataForStyleable(android.view.View,android.content.Context,int[],android.util.AttributeSet,android.content.res.TypedArray,int,int)
-com.honeypie.launcher.MainActivity: void onDestroy()
-android.support.v4.app.RemoteActionCompatParcelizer: RemoteActionCompatParcelizer()
-androidx.core.app.RemoteActionCompatParcelizer: androidx.core.app.RemoteActionCompat read(androidx.versionedparcelable.VersionedParcel)
-androidx.core.app.RemoteActionCompatParcelizer: RemoteActionCompatParcelizer()
-androidx.recyclerview.widget.RecyclerView: void setOnFlingListener(androidx.recyclerview.widget.RecyclerView$OnFlingListener)
-androidx.recyclerview.widget.RecyclerView: int getScrollState()
-androidx.core.view.ViewCompat$Api28Impl: boolean isAccessibilityHeading(android.view.View)
-androidx.profileinstaller.ProfileInstallerInitializer: ProfileInstallerInitializer()
+com.honeypie.launcher.MainActivity: com.honeypie.launcher.MainActivity$packageReceiver$1 packageReceiver
+com.honeypie.launcher.MainActivity: com.honeypie.launcher.AppAdapter adapter
+androidx.recyclerview.widget.StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem: android.os.Parcelable$Creator CREATOR
+com.honeypie.launcher.MainActivity: com.honeypie.launcher.AppRepository repository
+androidx.concurrent.futures.AbstractResolvableFuture: java.lang.Object value
+androidx.concurrent.futures.AbstractResolvableFuture$Waiter: androidx.concurrent.futures.AbstractResolvableFuture$Waiter next
+androidx.concurrent.futures.AbstractResolvableFuture$Waiter: java.lang.Thread thread
 androidx.core.graphics.drawable.IconCompatParcelizer: androidx.core.graphics.drawable.IconCompat read(androidx.versionedparcelable.VersionedParcel)
-android.support.v4.graphics.drawable.IconCompatParcelizer: IconCompatParcelizer()
-androidx.recyclerview.widget.RecyclerView: void setScrollingTouchSlop(int)
 com.honeypie.launcher.MainActivity: void onCreate(android.os.Bundle)
+androidx.recyclerview.widget.RecyclerView: int getMaxFlingVelocity()
 androidx.recyclerview.widget.RecyclerView: void setLayoutManager(androidx.recyclerview.widget.RecyclerView$LayoutManager)
+androidx.profileinstaller.FileSectionType: androidx.profileinstaller.FileSectionType[] values()
+androidx.recyclerview.widget.RecyclerView: void setLayoutTransition(android.animation.LayoutTransition)
+androidx.core.view.ViewCompat$Api28Impl: boolean isScreenReaderFocusable(android.view.View)
+androidx.recyclerview.widget.RecyclerView: void setScrollState(int)
+androidx.recyclerview.widget.LinearLayoutManager: LinearLayoutManager(android.content.Context,android.util.AttributeSet,int,int)
 androidx.recyclerview.widget.RecyclerView: int getBaseline()
-android.support.v4.graphics.drawable.IconCompatParcelizer: androidx.core.graphics.drawable.IconCompat read(androidx.versionedparcelable.VersionedParcel)
+androidx.recyclerview.widget.RecyclerView: void setScrollingTouchSlop(int)
 androidx.recyclerview.widget.RecyclerView: boolean getPreserveFocusAfterLayout()
-androidx.recyclerview.widget.RecyclerView: androidx.recyclerview.widget.RecyclerView$ItemAnimator getItemAnimator()
-com.honeypie.launcher.MainActivity: void onResume()
-com.honeypie.launcher.MainActivity: kotlin.Unit onCreate$lambda$0(com.honeypie.launcher.MainActivity,com.honeypie.launcher.AppInfo)
+androidx.core.app.RemoteActionCompatParcelizer: void write(androidx.core.app.RemoteActionCompat,androidx.versionedparcelable.VersionedParcel)
+androidx.recyclerview.widget.RecyclerView: java.lang.CharSequence getAccessibilityClassName()
+android.support.v4.graphics.drawable.IconCompatParcelizer: void write(androidx.core.graphics.drawable.IconCompat,androidx.versionedparcelable.VersionedParcel)
+androidx.recyclerview.widget.RecyclerView: void setRecycledViewPool(androidx.recyclerview.widget.RecyclerView$RecycledViewPool)
+androidx.recyclerview.widget.RecyclerView: int getItemDecorationCount()
+androidx.recyclerview.widget.RecyclerView: void setItemViewCacheSize(int)
+androidx.core.graphics.drawable.IconCompatParcelizer: IconCompatParcelizer()
+com.honeypie.launcher.MainActivity: com.honeypie.launcher.AppRepository access$getRepository$p(com.honeypie.launcher.MainActivity)
+androidx.recyclerview.widget.RecyclerView: void setPreserveFocusAfterLayout(boolean)
+androidx.recyclerview.widget.RecyclerView$Api35Impl: void setFrameContentVelocity(android.view.View,float)
+android.support.v4.graphics.drawable.IconCompatParcelizer: IconCompatParcelizer()
+androidx.recyclerview.widget.RecyclerView: androidx.recyclerview.widget.RecyclerViewAccessibilityDelegate getCompatAccessibilityDelegate()
+androidx.recyclerview.widget.RecyclerView: androidx.recyclerview.widget.RecyclerView$OnFlingListener getOnFlingListener()
+androidx.core.graphics.drawable.IconCompat: IconCompat()
+com.honeypie.launcher.MainActivity: void onBackPressed()
+androidx.recyclerview.widget.RecyclerView: void setOnScrollListener(androidx.recyclerview.widget.RecyclerView$OnScrollListener)
+androidx.recyclerview.widget.RecyclerView: void setAdapter(androidx.recyclerview.widget.RecyclerView$Adapter)
+androidx.recyclerview.widget.RecyclerView: androidx.recyclerview.widget.RecyclerView$RecycledViewPool getRecycledViewPool()
+androidx.tracing.TraceApi29Impl: boolean isEnabled()
+androidx.recyclerview.widget.StaggeredGridLayoutManager: StaggeredGridLayoutManager(android.content.Context,android.util.AttributeSet,int,int)
+androidx.recyclerview.widget.RecyclerView: void suppressLayout(boolean)
+androidx.profileinstaller.ProfileInstallerInitializer: ProfileInstallerInitializer()
+androidx.recyclerview.widget.RecyclerView: void setHasFixedSize(boolean)
+androidx.core.app.RemoteActionCompatParcelizer: RemoteActionCompatParcelizer()
+androidx.profileinstaller.FileSectionType: androidx.profileinstaller.FileSectionType valueOf(java.lang.String)
+androidx.core.graphics.drawable.IconCompatParcelizer: void write(androidx.core.graphics.drawable.IconCompat,androidx.versionedparcelable.VersionedParcel)
+androidx.recyclerview.widget.RecyclerView: androidx.core.view.NestedScrollingChildHelper getScrollingChildHelper()
+kotlin.coroutines.intrinsics.CoroutineSingletons: kotlin.coroutines.intrinsics.CoroutineSingletons valueOf(java.lang.String)
+androidx.recyclerview.widget.RecyclerView$Adapter$StateRestorationPolicy: androidx.recyclerview.widget.RecyclerView$Adapter$StateRestorationPolicy[] values()
+androidx.recyclerview.widget.RecyclerView: void setViewCacheExtension(androidx.recyclerview.widget.RecyclerView$ViewCacheExtension)
+androidx.core.widget.EdgeEffectCompat$Api21Impl: void onPull(android.widget.EdgeEffect,float,float)
+androidx.recyclerview.widget.RecyclerView: androidx.recyclerview.widget.RecyclerView$Adapter getAdapter()
+androidx.core.widget.EdgeEffectCompat$Api31Impl: float getDistance(android.widget.EdgeEffect)
+androidx.versionedparcelable.CustomVersionedParcelable: CustomVersionedParcelable()
+androidx.recyclerview.widget.RecyclerView: void setRecyclerListener(androidx.recyclerview.widget.RecyclerView$RecyclerListener)
+androidx.core.view.ViewCompat$Api28Impl: boolean isAccessibilityHeading(android.view.View)
+androidx.recyclerview.widget.RecyclerView: long getNanoTime()
+android.support.v4.app.RemoteActionCompatParcelizer: void write(androidx.core.app.RemoteActionCompat,androidx.versionedparcelable.VersionedParcel)
+androidx.core.view.ViewCompat$Api30Impl: java.lang.CharSequence getStateDescription(android.view.View)
+androidx.core.app.CoreComponentFactory: CoreComponentFactory()
 androidx.core.app.RemoteActionCompat: RemoteActionCompat()
 androidx.recyclerview.widget.RecyclerView: void setNestedScrollingEnabled(boolean)
-androidx.recyclerview.widget.RecyclerView: void setAdapter(androidx.recyclerview.widget.RecyclerView$Adapter)
-androidx.recyclerview.widget.RecyclerView: long getNanoTime()
-androidx.core.view.ViewCompat$Api30Impl: java.lang.CharSequence getStateDescription(android.view.View)
-androidx.core.view.ViewCompat$Api28Impl: java.lang.CharSequence getAccessibilityPaneTitle(android.view.View)
-androidx.versionedparcelable.CustomVersionedParcelable: CustomVersionedParcelable()
-androidx.recyclerview.widget.RecyclerView: androidx.recyclerview.widget.RecyclerViewAccessibilityDelegate getCompatAccessibilityDelegate()
-androidx.profileinstaller.ProfileInstallerInitializer$Choreographer16Impl: void postFrameCallback(java.lang.Runnable)
-androidx.recyclerview.widget.RecyclerView$Adapter$StateRestorationPolicy: androidx.recyclerview.widget.RecyclerView$Adapter$StateRestorationPolicy valueOf(java.lang.String)
-androidx.profileinstaller.FileSectionType: androidx.profileinstaller.FileSectionType valueOf(java.lang.String)
-com.honeypie.launcher.MainActivity: void onBackPressed()
-androidx.profileinstaller.ProfileVerifier$Api33Impl: android.content.pm.PackageInfo getPackageInfo(android.content.pm.PackageManager,android.content.Context)
-androidx.recyclerview.widget.RecyclerView: void suppressLayout(boolean)
-androidx.recyclerview.widget.RecyclerView: androidx.recyclerview.widget.RecyclerView$RecycledViewPool getRecycledViewPool()
-androidx.core.app.CoreComponentFactory: CoreComponentFactory()
-androidx.recyclerview.widget.StaggeredGridLayoutManager: StaggeredGridLayoutManager(android.content.Context,android.util.AttributeSet,int,int)
+androidx.recyclerview.widget.RecyclerView: int getScrollState()
+androidx.core.view.ViewCompat$Api26Impl: int getImportantForAutofill(android.view.View)
 androidx.core.view.ViewCompat$Api26Impl: void setImportantForAutofill(android.view.View,int)
-androidx.recyclerview.widget.RecyclerView: void setLayoutFrozen(boolean)
-androidx.recyclerview.widget.RecyclerView: void setPreserveFocusAfterLayout(boolean)
-androidx.recyclerview.widget.RecyclerView: void setItemViewCacheSize(int)
-com.honeypie.launcher.MainActivity: void access$updateList(com.honeypie.launcher.MainActivity)
-androidx.recyclerview.widget.RecyclerView: void setRecyclerListener(androidx.recyclerview.widget.RecyclerView$RecyclerListener)
+androidx.profileinstaller.ProfileVerifier$Api33Impl: android.content.pm.PackageInfo getPackageInfo(android.content.pm.PackageManager,android.content.Context)
+androidx.recyclerview.widget.RecyclerView$Adapter$StateRestorationPolicy: androidx.recyclerview.widget.RecyclerView$Adapter$StateRestorationPolicy valueOf(java.lang.String)
+androidx.profileinstaller.ProfileInstallerInitializer$Handler28Impl: android.os.Handler createAsync(android.os.Looper)
+androidx.recyclerview.widget.RecyclerView: androidx.recyclerview.widget.RecyclerView$LayoutManager getLayoutManager()
+android.support.v4.app.RemoteActionCompatParcelizer: androidx.core.app.RemoteActionCompat read(androidx.versionedparcelable.VersionedParcel)
+androidx.recyclerview.widget.RecyclerView: boolean getClipToPadding()
+com.honeypie.launcher.MainActivity: MainActivity()
+android.support.v4.graphics.drawable.IconCompatParcelizer: androidx.core.graphics.drawable.IconCompat read(androidx.versionedparcelable.VersionedParcel)
+androidx.core.view.ViewCompat$Api29Impl: android.view.View$AccessibilityDelegate getAccessibilityDelegate(android.view.View)
+androidx.recyclerview.widget.RecyclerView: void setOnFlingListener(androidx.recyclerview.widget.RecyclerView$OnFlingListener)
+com.honeypie.launcher.MainActivity: void updateList()
+com.honeypie.launcher.MainActivity: void onResume()
+androidx.recyclerview.widget.RecyclerView: void setEdgeEffectFactory(androidx.recyclerview.widget.RecyclerView$EdgeEffectFactory)
+androidx.recyclerview.widget.RecyclerView: void setItemAnimator(androidx.recyclerview.widget.RecyclerView$ItemAnimator)
 androidx.recyclerview.widget.GridLayoutManager: GridLayoutManager(android.content.Context,android.util.AttributeSet,int,int)
+androidx.recyclerview.widget.RecyclerView: void setLayoutFrozen(boolean)
+kotlin.coroutines.intrinsics.CoroutineSingletons: kotlin.coroutines.intrinsics.CoroutineSingletons[] values()
+androidx.profileinstaller.ProfileInstallReceiver: ProfileInstallReceiver()
+android.support.v4.app.RemoteActionCompatParcelizer: RemoteActionCompatParcelizer()
+androidx.startup.InitializationProvider: InitializationProvider()
+androidx.recyclerview.widget.RecyclerView: RecyclerView(android.content.Context,android.util.AttributeSet)
+androidx.core.view.ViewCompat$Api28Impl: java.lang.CharSequence getAccessibilityPaneTitle(android.view.View)
+androidx.core.view.ViewCompat$Api29Impl: void saveAttributeDataForStyleable(android.view.View,android.content.Context,int[],android.util.AttributeSet,android.content.res.TypedArray,int,int)
+androidx.recyclerview.widget.RecyclerView: void setDebugAssertionsEnabled(boolean)
+androidx.recyclerview.widget.RecyclerView: void setChildDrawingOrderCallback(androidx.recyclerview.widget.RecyclerView$ChildDrawingOrderCallback)
+androidx.recyclerview.widget.RecyclerView: void setClipToPadding(boolean)
+androidx.recyclerview.widget.RecyclerView: void setAccessibilityDelegateCompat(androidx.recyclerview.widget.RecyclerViewAccessibilityDelegate)
+androidx.core.widget.EdgeEffectCompat$Api31Impl: float onPullDistance(android.widget.EdgeEffect,float,float)
+androidx.recyclerview.widget.RecyclerView: androidx.recyclerview.widget.RecyclerView$ItemAnimator getItemAnimator()
+androidx.core.app.RemoteActionCompatParcelizer: androidx.core.app.RemoteActionCompat read(androidx.versionedparcelable.VersionedParcel)
+com.honeypie.launcher.MainActivity: kotlin.Unit onCreate$lambda$0(com.honeypie.launcher.MainActivity,com.honeypie.launcher.AppInfo)
 androidx.recyclerview.widget.RecyclerView: int getMinFlingVelocity()
-androidx.recyclerview.widget.RecyclerView: java.lang.CharSequence getAccessibilityClassName()
+androidx.recyclerview.widget.RecyclerView: androidx.recyclerview.widget.RecyclerView$EdgeEffectFactory getEdgeEffectFactory()
+androidx.profileinstaller.ProfileInstallerInitializer$Choreographer16Impl: void postFrameCallback(java.lang.Runnable)
+androidx.recyclerview.widget.RecyclerView: void setVerboseLoggingEnabled(boolean)
+com.honeypie.launcher.MainActivity: void access$updateList(com.honeypie.launcher.MainActivity)
+com.honeypie.launcher.MainActivity: void onDestroy()
+androidx.recyclerview.widget.RecyclerView: boolean isLayoutSuppressed()
+androidx.core.view.ViewCompat$Api21Impl: void stopNestedScroll(android.view.View)

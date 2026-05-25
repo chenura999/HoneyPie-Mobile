@@ -40,6 +40,7 @@ ACTION_SCROLL_DOWN
 guava.concurrent.generate_cancellatio...
 ACTION_COLLAPSE
 traceCounter
+input_method
 kotlin.Unit
 ACTION_PRESS_AND_HOLD
 kotlin.jvm.functions.
@@ -53,12 +54,12 @@ EXTRA_BENCHMARK_OPERATION
 ACTION_SELECT
 RESOURCE
 RESULT_DESIRED_FORMAT_UNSUPPORTED
-profileinstaller_profileWrittenFor_la...
 a
-androidx.view.accessibility.Accessibi...
+profileinstaller_profileWrittenFor_la...
 b
-ACTION_CLEAR_ACCESSIBILITY_FOCUS
+androidx.view.accessibility.Accessibi...
 c
+ACTION_CLEAR_ACCESSIBILITY_FOCUS
 ACTION_IME_ENTER
 RESULT_PARSE_EXCEPTION
 ACTION_EXPAND
@@ -86,7 +87,6 @@ ACTION_SCROLL_FORWARD
 androidx.view.accessibility.Accessibi...
 up
 add
-query
 profileInstalled
 name
 ACTION_ACCESSIBILITY_FOCUS
@@ -142,6 +142,7 @@ RESULT_NOT_WRITABLE
 ACTION_FOCUS
 RESULT_INSTALL_SKIP_FILE_SUCCESS
 DELETE_SKIP_FILE
+other
 /data/misc/profiles/cur/0/
 ACTION_SCROLL_IN_DIRECTION
 ACTION_CLEAR_SELECTION
@@ -228,7 +229,6 @@ Marking id:accessibility_custom_action_7:2131034142 used because it matches stri
 Marking id:accessibility_custom_action_8:2131034143 used because it matches string pool constant accessibility
 Marking id:accessibility_custom_action_9:2131034144 used because it matches string pool constant accessibility
 Marking id:searchEditText:2131034175 used because it matches string pool constant searchEditText
-Marking attr:queryPatterns:2130771989 used because it matches string pool constant query
 Marking color:androidx_core_ripple_material_light:2130837504 used because it matches string pool constant android
 Marking color:androidx_core_secondary_text_default_material_light:2130837505 used because it matches string pool constant android
 Marking string:androidx_startup:2131296256 used because it matches string pool constant android
@@ -253,7 +253,7 @@ Marking string:androidx_startup:2131296256 used because it matches string pool c
 @com.honeypie.launcher:attr/lStar : reachable=false
 @com.honeypie.launcher:attr/layoutManager : reachable=false
 @com.honeypie.launcher:attr/nestedScrollViewStyle : reachable=false
-@com.honeypie.launcher:attr/queryPatterns : reachable=true
+@com.honeypie.launcher:attr/queryPatterns : reachable=false
 @com.honeypie.launcher:attr/recyclerViewStyle : reachable=true
 @com.honeypie.launcher:attr/reverseLayout : reachable=false
 @com.honeypie.launcher:attr/shortcutMatchRequired : reachable=false
@@ -486,7 +486,6 @@ Marking string:androidx_startup:2131296256 used because it matches string pool c
     @com.honeypie.launcher:dimen/notification_action_text_size
 
 The root reachable resources are:
- attr:queryPatterns:2130771989
  attr:recyclerViewStyle:2130771990
  color:androidx_core_ripple_material_light:2130837504
  color:androidx_core_secondary_text_default_material_light:2130837505

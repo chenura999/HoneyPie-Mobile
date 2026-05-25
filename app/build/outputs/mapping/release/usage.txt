@@ -7344,6 +7344,7 @@ kotlin.text.StringsKt__StringsKt:
     public static final int indexOfAny(java.lang.CharSequence,char[],int,boolean)
     public static synthetic int indexOfAny$default(java.lang.CharSequence,java.util.Collection,int,boolean,int,java.lang.Object)
     public static synthetic int indexOfAny$default(java.lang.CharSequence,char[],int,boolean,int,java.lang.Object)
+    public static final boolean isBlank(java.lang.CharSequence)
     private static final boolean isEmpty(java.lang.CharSequence)
     private static final boolean isNotBlank(java.lang.CharSequence)
     private static final boolean isNotEmpty(java.lang.CharSequence)
@@ -9849,15 +9850,5 @@ kotlin.text.CharsKt
 kotlin.text.CharsKt__CharJVMKt
 kotlin.text.CharsKt__CharKt
 kotlin.text.StringsKt
-kotlin.text.StringsKt__AppendableKt
-kotlin.text.StringsKt__IndentKt
-kotlin.text.StringsKt__RegexExtensionsJVMKt
-kotlin.text.StringsKt__RegexExtensionsKt
-kotlin.text.StringsKt__StringBuilderJVMKt
-kotlin.text.StringsKt__StringBuilderKt
-kotlin.text.StringsKt__StringNumberConversionsJVMKt
-kotlin.text.StringsKt__StringNumberConversionsKt
-kotlin.text.StringsKt__StringsJVMKt
-kotlin.text.StringsKt__StringsKt
 kotlin.text.StringsKt___StringsJvmKt
 kotlin.text.StringsKt___StringsKt
