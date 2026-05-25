@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color gray_dark
+color gray_medium
+color gray_text
+color search_bg
+color search_hint
+color search_text
+color white
+drawable ic_launcher_foreground
+drawable search_bg
+id appIcon
+id appLabel
+id appsRecyclerView
+id searchEditText
+layout activity_main
+layout item_app
+mipmap ic_launcher
+string app_name
+string search_hint
+style Theme.HoneyPie

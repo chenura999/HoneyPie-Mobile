@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/home/alonexe/Documents/HoneyPie-Mobile/app"
+    name=":app"
+    type="APP"
+    maven="HoneyPie:app:unspecified"
+    agpVersion="8.10.1"
+    buildFolder="build"
+    bootClassPath="/home/alonexe/Android/sdk/platforms/android-36/android.jar:/home/alonexe/Android/sdk/build-tools/35.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="17"
+    compileTarget="android-36">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

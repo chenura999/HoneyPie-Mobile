@@ -1,0 +1,659 @@
+Marking layout:activity_main:2131165184 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:appsRecyclerView:2131034152 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:searchEditText:2131034175 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking attr:recyclerViewStyle:2130771990 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking dimen:fastscroll_default_thickness:2130903047 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking dimen:fastscroll_minimum_range:2130903049 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking dimen:fastscroll_margin:2130903048 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:is_pooling_container_tag:2131034163 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:pooling_container_listener_holder_tag:2131034172 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking layout:item_app:2131165188 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:appIcon:2131034150 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:appLabel:2131034151 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:tag_accessibility_actions:2131034176 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_action_clickable_span:2131034112 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:tag_accessibility_clickable_spans:2131034177 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:androidx_startup:2131296256 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:tag_screen_reader_focusable:2131034183 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:tag_accessibility_heading:2131034178 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:tag_accessibility_pane_title:2131034179 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:tag_state_description:2131034184 reachable: referenced from in_memory_r8_base_classes0.dex
+android.content.res.Resources#getIdentifier present: true
+Web content present: false
+Referenced Strings:
+getModule
+accessibility
+ViewHolder
+androidx.view.accessibility.Accessibi...
+TRACE_TAG_APP
+/data/misc/profiles/cur/0
+searchEditText
+kotlin.reflect.jvm.internal.Reflectio...
+element
+app
+LauncherController
+ACTION_UNKNOWN
+config_viewMaxRotaryEncoderFlingVelocity
+ACTION_NEXT_HTML_ELEMENT
+adapter
+ACTION_SCROLL_DOWN
+guava.concurrent.generate_cancellatio...
+ACTION_COLLAPSE
+traceCounter
+kotlin.Unit
+ACTION_PRESS_AND_HOLD
+kotlin.jvm.functions.
+c:
+ACTION_CLICK
+rm
+DROP_SHADER_CACHE
+ACTION_PAGE_DOWN
+ACTION_SCROLL_TO_POSITION
+EXTRA_BENCHMARK_OPERATION
+ACTION_SELECT
+RESOURCE
+RESULT_DESIRED_FORMAT_UNSUPPORTED
+profileinstaller_profileWrittenFor_la...
+a
+androidx.view.accessibility.Accessibi...
+b
+ACTION_CLEAR_ACCESSIBILITY_FOCUS
+c
+ACTION_IME_ENTER
+RESULT_PARSE_EXCEPTION
+ACTION_EXPAND
+WRITE_SKIP_FILE
+getScaledScrollFactor
+GridLayoutManager
+java.lang.Module
+x
+ACTION_NEXT_AT_MOVEMENT_GRANULARITY
+RecyclerView
+compressed
+Startup
+dimen
+android.widget.GridView
+androidx.profileinstaller.action.SKIP...
+android.view.accessibility.action.ARG...
+isTagEnabled
+ACTION_DRAG_CANCEL
+android.intent.action.PACKAGE_REMOVED
+androidx.view.accessibility.Accessibi...
+ACTION_SET_PROGRESS
+androidx.profileinstaller.action.INST...
+androidx.recyclerview.widget.Recycler...
+ACTION_SCROLL_FORWARD
+androidx.view.accessibility.Accessibi...
+up
+add
+query
+profileInstalled
+name
+ACTION_ACCESSIBILITY_FOCUS
+androidx.recyclerview.widget.Staggere...
+CASE_INSENSITIVE_ORDER
+getDescriptor
+androidx.view.accessibility.Accessibi...
+ACTION_LONG_CLICK
+ACTION_CLEAR_FOCUS
+RESULT_BASELINE_PROFILE_NOT_FOUND
+android
+ACTION_SET_SELECTION
+destination
+java.lang.module.ModuleDescriptor
+ACTION_SCROLL_BACKWARD
+androidx.view.accessibility.Accessibi...
+ViewParentCompat
+RESULT_DELETE_SKIP_FILE_SUCCESS
+RESULT_ALREADY_INSTALLED
+androidx.view.accessibility.Accessibi...
+ProfileInstaller
+ACTION_SCROLL_UP
+BITMAP_MASKABLE
+androidx.core.view.accessibility.acti...
+androidx.view.accessibility.Accessibi...
+IconCompat
+EXTRA_SKIP_FILE_OPERATION
+false
+label
+View
+ACTION_DRAG_DROP
+android.intent.action.PACKAGE_ADDED
+ACTION_MOVE_WINDOW
+ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY
+dexopt/baseline.profm
+xx
+ACCESSIBILITY_CLICKABLE_SPAN_ID
+repository
+ACTION_CONTEXT_CLICK
+ACTION_PAGE_LEFT
+androidx.profileinstaller.action.SAVE...
+dexopt/baseline.prof
+androidx.view.accessibility.Accessibi...
+context
+androidx.view.accessibility.Accessibi...
+write
+ACTION_SHOW_ON_SCREEN
+primary.prof
+UNDECIDED
+getResId
+.apk
+RESULT_NOT_WRITABLE
+ACTION_FOCUS
+RESULT_INSTALL_SKIP_FILE_SUCCESS
+DELETE_SKIP_FILE
+/data/misc/profiles/cur/0/
+ACTION_SCROLL_IN_DIRECTION
+ACTION_CLEAR_SELECTION
+URI
+ACTION_PAGE_UP
+androidx.view.accessibility.Accessibi...
+androidx.view.accessibility.Accessibi...
+android.intent.action.PACKAGE_REPLACED
+ACTION_DRAG_START
+ACTION_PAGE_RIGHT
+PENDING
+androidx.profileinstaller.action.BENC...
+elements
+ACTION_HIDE_TOOLTIP
+ACTION_SET_TEXT
+URI_MASKABLE
+/data/misc/profiles/ref/
+RESUMED
+instance
+RESULT_INSTALL_SUCCESS
+asyncTraceBegin
+package
+read
+mv
+RESULT_UNSUPPORTED_ART_VERSION
+ACTION_COPY
+CANCELLED
+DATA
+android.intent.category.LAUNCHER
+android.view.accessibility.action.ARG...
+android.hardware.rotaryencoder.lowres
+ACTION_CUT
+ACTION_SCROLL_RIGHT
+mAccessibilityDelegate
+asyncTraceEnd
+android.view.accessibility.action.ARG...
+array
+ACTION_SCROLL_LEFT
+packageName
+ACTION_PREVIOUS_HTML_ELEMENT
+BITMAP
+ACTION_SHOW_TOOLTIP
+0x%08x
+Parcelizer
+RESULT_IO_EXCEPTION
+intent
+COROUTINE_SUSPENDED
+config_viewMinRotaryEncoderFlingVelocity
+android.intent.action.MAIN
+UNKNOWN
+classes.dex
+ACTION_PASTE
+Marking id:accessibility_action_clickable_span:2131034112 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_0:2131034113 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_1:2131034114 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_10:2131034115 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_11:2131034116 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_12:2131034117 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_13:2131034118 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_14:2131034119 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_15:2131034120 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_16:2131034121 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_17:2131034122 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_18:2131034123 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_19:2131034124 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_2:2131034125 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_20:2131034126 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_21:2131034127 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_22:2131034128 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_23:2131034129 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_24:2131034130 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_25:2131034131 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_26:2131034132 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_27:2131034133 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_28:2131034134 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_29:2131034135 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_3:2131034136 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_30:2131034137 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_31:2131034138 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_4:2131034139 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_5:2131034140 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_6:2131034141 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_7:2131034142 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_8:2131034143 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_9:2131034144 used because it matches string pool constant accessibility
+Marking id:searchEditText:2131034175 used because it matches string pool constant searchEditText
+Marking attr:queryPatterns:2130771989 used because it matches string pool constant query
+Marking color:androidx_core_ripple_material_light:2130837504 used because it matches string pool constant android
+Marking color:androidx_core_secondary_text_default_material_light:2130837505 used because it matches string pool constant android
+Marking string:androidx_startup:2131296256 used because it matches string pool constant android
+@com.honeypie.launcher:attr/alpha : reachable=false
+@com.honeypie.launcher:attr/fastScrollEnabled : reachable=false
+@com.honeypie.launcher:attr/fastScrollHorizontalThumbDrawable : reachable=false
+@com.honeypie.launcher:attr/fastScrollHorizontalTrackDrawable : reachable=false
+@com.honeypie.launcher:attr/fastScrollVerticalThumbDrawable : reachable=false
+@com.honeypie.launcher:attr/fastScrollVerticalTrackDrawable : reachable=false
+@com.honeypie.launcher:attr/font : reachable=false
+@com.honeypie.launcher:attr/fontProviderAuthority : reachable=false
+@com.honeypie.launcher:attr/fontProviderCerts : reachable=false
+@com.honeypie.launcher:attr/fontProviderFallbackQuery : reachable=false
+@com.honeypie.launcher:attr/fontProviderFetchStrategy : reachable=false
+@com.honeypie.launcher:attr/fontProviderFetchTimeout : reachable=false
+@com.honeypie.launcher:attr/fontProviderPackage : reachable=false
+@com.honeypie.launcher:attr/fontProviderQuery : reachable=false
+@com.honeypie.launcher:attr/fontProviderSystemFontFamily : reachable=false
+@com.honeypie.launcher:attr/fontStyle : reachable=false
+@com.honeypie.launcher:attr/fontVariationSettings : reachable=false
+@com.honeypie.launcher:attr/fontWeight : reachable=false
+@com.honeypie.launcher:attr/lStar : reachable=false
+@com.honeypie.launcher:attr/layoutManager : reachable=false
+@com.honeypie.launcher:attr/nestedScrollViewStyle : reachable=false
+@com.honeypie.launcher:attr/queryPatterns : reachable=true
+@com.honeypie.launcher:attr/recyclerViewStyle : reachable=true
+@com.honeypie.launcher:attr/reverseLayout : reachable=false
+@com.honeypie.launcher:attr/shortcutMatchRequired : reachable=false
+@com.honeypie.launcher:attr/spanCount : reachable=false
+@com.honeypie.launcher:attr/stackFromEnd : reachable=false
+@com.honeypie.launcher:attr/ttcIndex : reachable=false
+@com.honeypie.launcher:color/androidx_core_ripple_material_light : reachable=true
+@com.honeypie.launcher:color/androidx_core_secondary_text_default_material_light : reachable=true
+@com.honeypie.launcher:color/black : reachable=false
+@com.honeypie.launcher:color/call_notification_answer_color : reachable=false
+@com.honeypie.launcher:color/call_notification_decline_color : reachable=false
+@com.honeypie.launcher:color/gray_dark : reachable=false
+@com.honeypie.launcher:color/gray_medium : reachable=false
+@com.honeypie.launcher:color/gray_text : reachable=false
+@com.honeypie.launcher:color/notification_action_color_filter : reachable=false
+    @com.honeypie.launcher:color/androidx_core_secondary_text_default_material_light
+@com.honeypie.launcher:color/notification_icon_bg_color : reachable=false
+@com.honeypie.launcher:color/search_bg : reachable=false
+@com.honeypie.launcher:color/search_hint : reachable=false
+@com.honeypie.launcher:color/search_text : reachable=false
+@com.honeypie.launcher:color/white : reachable=false
+@com.honeypie.launcher:dimen/compat_button_inset_horizontal_material : reachable=false
+@com.honeypie.launcher:dimen/compat_button_inset_vertical_material : reachable=false
+@com.honeypie.launcher:dimen/compat_button_padding_horizontal_material : reachable=false
+@com.honeypie.launcher:dimen/compat_button_padding_vertical_material : reachable=false
+@com.honeypie.launcher:dimen/compat_control_corner_material : reachable=false
+@com.honeypie.launcher:dimen/compat_notification_large_icon_max_height : reachable=false
+@com.honeypie.launcher:dimen/compat_notification_large_icon_max_width : reachable=false
+@com.honeypie.launcher:dimen/fastscroll_default_thickness : reachable=true
+@com.honeypie.launcher:dimen/fastscroll_margin : reachable=true
+@com.honeypie.launcher:dimen/fastscroll_minimum_range : reachable=true
+@com.honeypie.launcher:dimen/item_touch_helper_max_drag_scroll_per_frame : reachable=false
+@com.honeypie.launcher:dimen/item_touch_helper_swipe_escape_max_velocity : reachable=false
+@com.honeypie.launcher:dimen/item_touch_helper_swipe_escape_velocity : reachable=false
+@com.honeypie.launcher:dimen/notification_action_icon_size : reachable=false
+@com.honeypie.launcher:dimen/notification_action_text_size : reachable=false
+@com.honeypie.launcher:dimen/notification_big_circle_margin : reachable=false
+@com.honeypie.launcher:dimen/notification_content_margin_start : reachable=false
+@com.honeypie.launcher:dimen/notification_large_icon_height : reachable=false
+@com.honeypie.launcher:dimen/notification_large_icon_width : reachable=false
+@com.honeypie.launcher:dimen/notification_main_column_padding_top : reachable=false
+@com.honeypie.launcher:dimen/notification_media_narrow_margin : reachable=false
+@com.honeypie.launcher:dimen/notification_right_icon_size : reachable=false
+@com.honeypie.launcher:dimen/notification_right_side_padding_top : reachable=false
+@com.honeypie.launcher:dimen/notification_small_icon_background_padding : reachable=false
+@com.honeypie.launcher:dimen/notification_small_icon_size_as_large : reachable=false
+@com.honeypie.launcher:dimen/notification_subtext_size : reachable=false
+@com.honeypie.launcher:dimen/notification_top_pad : reachable=false
+@com.honeypie.launcher:dimen/notification_top_pad_large_text : reachable=false
+@com.honeypie.launcher:drawable/ic_call_answer : reachable=false
+@com.honeypie.launcher:drawable/ic_call_answer_low : reachable=false
+@com.honeypie.launcher:drawable/ic_call_answer_video : reachable=false
+@com.honeypie.launcher:drawable/ic_call_answer_video_low : reachable=false
+@com.honeypie.launcher:drawable/ic_call_decline : reachable=false
+@com.honeypie.launcher:drawable/ic_call_decline_low : reachable=false
+@com.honeypie.launcher:drawable/ic_launcher_foreground : reachable=false
+@com.honeypie.launcher:drawable/notification_action_background : reachable=false
+    @com.honeypie.launcher:color/androidx_core_ripple_material_light
+    @com.honeypie.launcher:dimen/compat_button_inset_horizontal_material
+    @com.honeypie.launcher:dimen/compat_button_inset_vertical_material
+    @com.honeypie.launcher:dimen/compat_control_corner_material
+    @com.honeypie.launcher:dimen/compat_button_padding_vertical_material
+    @com.honeypie.launcher:dimen/compat_button_padding_horizontal_material
+@com.honeypie.launcher:drawable/notification_bg : reachable=false
+    @com.honeypie.launcher:drawable/notification_bg_normal_pressed
+    @com.honeypie.launcher:drawable/notification_bg_normal
+@com.honeypie.launcher:drawable/notification_bg_low : reachable=false
+    @com.honeypie.launcher:drawable/notification_bg_low_pressed
+    @com.honeypie.launcher:drawable/notification_bg_low_normal
+@com.honeypie.launcher:drawable/notification_bg_low_normal : reachable=false
+@com.honeypie.launcher:drawable/notification_bg_low_pressed : reachable=false
+@com.honeypie.launcher:drawable/notification_bg_normal : reachable=false
+@com.honeypie.launcher:drawable/notification_bg_normal_pressed : reachable=false
+@com.honeypie.launcher:drawable/notification_icon_background : reachable=false
+    @com.honeypie.launcher:color/notification_icon_bg_color
+@com.honeypie.launcher:drawable/notification_oversize_large_icon_bg : reachable=false
+@com.honeypie.launcher:drawable/notification_template_icon_bg : reachable=false
+@com.honeypie.launcher:drawable/notification_template_icon_low_bg : reachable=false
+@com.honeypie.launcher:drawable/notification_tile_bg : reachable=false
+    @com.honeypie.launcher:drawable/notify_panel_notification_icon_bg
+@com.honeypie.launcher:drawable/notify_panel_notification_icon_bg : reachable=false
+@com.honeypie.launcher:drawable/search_bg : reachable=false
+    @com.honeypie.launcher:color/search_bg
+@com.honeypie.launcher:id/accessibility_action_clickable_span : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_0 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_1 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_10 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_11 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_12 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_13 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_14 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_15 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_16 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_17 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_18 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_19 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_2 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_20 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_21 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_22 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_23 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_24 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_25 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_26 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_27 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_28 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_29 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_3 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_30 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_31 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_4 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_5 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_6 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_7 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_8 : reachable=true
+@com.honeypie.launcher:id/accessibility_custom_action_9 : reachable=true
+@com.honeypie.launcher:id/action_container : reachable=false
+@com.honeypie.launcher:id/action_divider : reachable=false
+@com.honeypie.launcher:id/action_image : reachable=false
+@com.honeypie.launcher:id/action_text : reachable=false
+@com.honeypie.launcher:id/actions : reachable=false
+@com.honeypie.launcher:id/appIcon : reachable=true
+@com.honeypie.launcher:id/appLabel : reachable=true
+@com.honeypie.launcher:id/appsRecyclerView : reachable=true
+@com.honeypie.launcher:id/async : reachable=false
+@com.honeypie.launcher:id/blocking : reachable=false
+@com.honeypie.launcher:id/chronometer : reachable=false
+@com.honeypie.launcher:id/dialog_button : reachable=false
+@com.honeypie.launcher:id/edit_text_id : reachable=false
+@com.honeypie.launcher:id/forever : reachable=false
+@com.honeypie.launcher:id/hide_ime_id : reachable=false
+@com.honeypie.launcher:id/icon : reachable=false
+@com.honeypie.launcher:id/icon_group : reachable=false
+@com.honeypie.launcher:id/info : reachable=false
+@com.honeypie.launcher:id/is_pooling_container_tag : reachable=true
+@com.honeypie.launcher:id/italic : reachable=false
+@com.honeypie.launcher:id/item_touch_helper_previous_elevation : reachable=false
+@com.honeypie.launcher:id/line1 : reachable=false
+@com.honeypie.launcher:id/line3 : reachable=false
+@com.honeypie.launcher:id/normal : reachable=false
+@com.honeypie.launcher:id/notification_background : reachable=false
+@com.honeypie.launcher:id/notification_main_column : reachable=false
+@com.honeypie.launcher:id/notification_main_column_container : reachable=false
+@com.honeypie.launcher:id/pooling_container_listener_holder_tag : reachable=true
+@com.honeypie.launcher:id/right_icon : reachable=false
+@com.honeypie.launcher:id/right_side : reachable=false
+@com.honeypie.launcher:id/searchEditText : reachable=true
+@com.honeypie.launcher:id/tag_accessibility_actions : reachable=true
+@com.honeypie.launcher:id/tag_accessibility_clickable_spans : reachable=true
+@com.honeypie.launcher:id/tag_accessibility_heading : reachable=true
+@com.honeypie.launcher:id/tag_accessibility_pane_title : reachable=true
+@com.honeypie.launcher:id/tag_on_apply_window_listener : reachable=false
+@com.honeypie.launcher:id/tag_on_receive_content_listener : reachable=false
+@com.honeypie.launcher:id/tag_on_receive_content_mime_types : reachable=false
+@com.honeypie.launcher:id/tag_screen_reader_focusable : reachable=true
+@com.honeypie.launcher:id/tag_state_description : reachable=true
+@com.honeypie.launcher:id/tag_transition_group : reachable=false
+@com.honeypie.launcher:id/tag_unhandled_key_event_manager : reachable=false
+@com.honeypie.launcher:id/tag_unhandled_key_listeners : reachable=false
+@com.honeypie.launcher:id/tag_window_insets_animation_callback : reachable=false
+@com.honeypie.launcher:id/text : reachable=false
+@com.honeypie.launcher:id/text2 : reachable=false
+@com.honeypie.launcher:id/time : reachable=false
+@com.honeypie.launcher:id/title : reachable=false
+@com.honeypie.launcher:id/view_tree_lifecycle_owner : reachable=false
+@com.honeypie.launcher:integer/status_bar_notification_info_maxnum : reachable=false
+@com.honeypie.launcher:layout/activity_main : reachable=true
+    @com.honeypie.launcher:color/black
+    @com.honeypie.launcher:color/search_text
+    @com.honeypie.launcher:drawable/search_bg
+    @com.honeypie.launcher:string/search_hint
+    @com.honeypie.launcher:color/search_hint
+@com.honeypie.launcher:layout/custom_dialog : reachable=false
+@com.honeypie.launcher:layout/ime_base_split_test_activity : reachable=false
+@com.honeypie.launcher:layout/ime_secondary_split_test_activity : reachable=false
+@com.honeypie.launcher:layout/item_app : reachable=true
+    @com.honeypie.launcher:color/gray_text
+@com.honeypie.launcher:layout/notification_action : reachable=false
+    @com.honeypie.launcher:style/Widget_Compat_NotificationActionContainer
+    @com.honeypie.launcher:dimen/notification_action_icon_size
+    @com.honeypie.launcher:style/Widget_Compat_NotificationActionText
+@com.honeypie.launcher:layout/notification_action_tombstone : reachable=false
+    @com.honeypie.launcher:style/Widget_Compat_NotificationActionContainer
+    @com.honeypie.launcher:dimen/notification_action_icon_size
+    @com.honeypie.launcher:style/Widget_Compat_NotificationActionText
+@com.honeypie.launcher:layout/notification_template_custom_big : reachable=false
+    @com.honeypie.launcher:layout/notification_template_icon_group
+    @com.honeypie.launcher:dimen/notification_large_icon_width
+    @com.honeypie.launcher:dimen/notification_large_icon_height
+    @com.honeypie.launcher:dimen/notification_right_side_padding_top
+    @com.honeypie.launcher:layout/notification_template_part_time
+    @com.honeypie.launcher:layout/notification_template_part_chronometer
+    @com.honeypie.launcher:style/TextAppearance_Compat_Notification_Info
+@com.honeypie.launcher:layout/notification_template_icon_group : reachable=false
+    @com.honeypie.launcher:dimen/notification_large_icon_width
+    @com.honeypie.launcher:dimen/notification_large_icon_height
+    @com.honeypie.launcher:dimen/notification_big_circle_margin
+    @com.honeypie.launcher:dimen/notification_right_icon_size
+@com.honeypie.launcher:layout/notification_template_part_chronometer : reachable=false
+    @com.honeypie.launcher:style/TextAppearance_Compat_Notification_Time
+@com.honeypie.launcher:layout/notification_template_part_time : reachable=false
+    @com.honeypie.launcher:style/TextAppearance_Compat_Notification_Time
+@com.honeypie.launcher:mipmap/ic_launcher : reachable=true
+    @com.honeypie.launcher:color/black
+    @com.honeypie.launcher:drawable/ic_launcher_foreground
+@com.honeypie.launcher:string/androidx_startup : reachable=true
+@com.honeypie.launcher:string/app_name : reachable=true
+@com.honeypie.launcher:string/call_notification_answer_action : reachable=false
+@com.honeypie.launcher:string/call_notification_answer_video_action : reachable=false
+@com.honeypie.launcher:string/call_notification_decline_action : reachable=false
+@com.honeypie.launcher:string/call_notification_hang_up_action : reachable=false
+@com.honeypie.launcher:string/call_notification_incoming_text : reachable=false
+@com.honeypie.launcher:string/call_notification_ongoing_text : reachable=false
+@com.honeypie.launcher:string/call_notification_screening_text : reachable=false
+@com.honeypie.launcher:string/search_hint : reachable=false
+@com.honeypie.launcher:string/status_bar_notification_info_overflow : reachable=false
+@com.honeypie.launcher:style/TextAppearance_Compat_Notification : reachable=false
+@com.honeypie.launcher:style/TextAppearance_Compat_Notification_Info : reachable=false
+@com.honeypie.launcher:style/TextAppearance_Compat_Notification_Line2 : reachable=false
+    @com.honeypie.launcher:style/TextAppearance_Compat_Notification_Info
+@com.honeypie.launcher:style/TextAppearance_Compat_Notification_Time : reachable=false
+@com.honeypie.launcher:style/TextAppearance_Compat_Notification_Title : reachable=false
+@com.honeypie.launcher:style/Theme_HoneyPie : reachable=true
+    @com.honeypie.launcher:color/black
+    @com.honeypie.launcher:color/white
+@com.honeypie.launcher:style/Widget_Compat_NotificationActionContainer : reachable=false
+    @com.honeypie.launcher:drawable/notification_action_background
+@com.honeypie.launcher:style/Widget_Compat_NotificationActionText : reachable=false
+    @com.honeypie.launcher:color/androidx_core_secondary_text_default_material_light
+    @com.honeypie.launcher:dimen/notification_action_text_size
+
+The root reachable resources are:
+ attr:queryPatterns:2130771989
+ attr:recyclerViewStyle:2130771990
+ color:androidx_core_ripple_material_light:2130837504
+ color:androidx_core_secondary_text_default_material_light:2130837505
+ dimen:fastscroll_default_thickness:2130903047
+ dimen:fastscroll_margin:2130903048
+ dimen:fastscroll_minimum_range:2130903049
+ id:accessibility_action_clickable_span:2131034112
+ id:accessibility_custom_action_0:2131034113
+ id:accessibility_custom_action_1:2131034114
+ id:accessibility_custom_action_10:2131034115
+ id:accessibility_custom_action_11:2131034116
+ id:accessibility_custom_action_12:2131034117
+ id:accessibility_custom_action_13:2131034118
+ id:accessibility_custom_action_14:2131034119
+ id:accessibility_custom_action_15:2131034120
+ id:accessibility_custom_action_16:2131034121
+ id:accessibility_custom_action_17:2131034122
+ id:accessibility_custom_action_18:2131034123
+ id:accessibility_custom_action_19:2131034124
+ id:accessibility_custom_action_2:2131034125
+ id:accessibility_custom_action_20:2131034126
+ id:accessibility_custom_action_21:2131034127
+ id:accessibility_custom_action_22:2131034128
+ id:accessibility_custom_action_23:2131034129
+ id:accessibility_custom_action_24:2131034130
+ id:accessibility_custom_action_25:2131034131
+ id:accessibility_custom_action_26:2131034132
+ id:accessibility_custom_action_27:2131034133
+ id:accessibility_custom_action_28:2131034134
+ id:accessibility_custom_action_29:2131034135
+ id:accessibility_custom_action_3:2131034136
+ id:accessibility_custom_action_30:2131034137
+ id:accessibility_custom_action_31:2131034138
+ id:accessibility_custom_action_4:2131034139
+ id:accessibility_custom_action_5:2131034140
+ id:accessibility_custom_action_6:2131034141
+ id:accessibility_custom_action_7:2131034142
+ id:accessibility_custom_action_8:2131034143
+ id:accessibility_custom_action_9:2131034144
+ id:appIcon:2131034150
+ id:appLabel:2131034151
+ id:appsRecyclerView:2131034152
+ id:is_pooling_container_tag:2131034163
+ id:pooling_container_listener_holder_tag:2131034172
+ id:searchEditText:2131034175
+ id:tag_accessibility_actions:2131034176
+ id:tag_accessibility_clickable_spans:2131034177
+ id:tag_accessibility_heading:2131034178
+ id:tag_accessibility_pane_title:2131034179
+ id:tag_screen_reader_focusable:2131034183
+ id:tag_state_description:2131034184
+ layout:activity_main:2131165184
+ layout:item_app:2131165188
+ mipmap:ic_launcher:2131230720
+ string:androidx_startup:2131296256
+ string:app_name:2131296257
+ style:Theme_HoneyPie:2131361797
+Unused resources are: 
+ color:call_notification_answer_color:2130837507
+ color:call_notification_decline_color:2130837508
+ color:gray_dark:2130837509
+ color:gray_medium:2130837510
+ color:notification_action_color_filter:2130837512
+ color:notification_icon_bg_color:2130837513
+ dimen:compat_button_inset_horizontal_material:2130903040
+ dimen:compat_button_inset_vertical_material:2130903041
+ dimen:compat_button_padding_horizontal_material:2130903042
+ dimen:compat_button_padding_vertical_material:2130903043
+ dimen:compat_control_corner_material:2130903044
+ dimen:compat_notification_large_icon_max_height:2130903045
+ dimen:compat_notification_large_icon_max_width:2130903046
+ dimen:item_touch_helper_max_drag_scroll_per_frame:2130903050
+ dimen:item_touch_helper_swipe_escape_max_velocity:2130903051
+ dimen:item_touch_helper_swipe_escape_velocity:2130903052
+ dimen:notification_action_icon_size:2130903053
+ dimen:notification_action_text_size:2130903054
+ dimen:notification_big_circle_margin:2130903055
+ dimen:notification_content_margin_start:2130903056
+ dimen:notification_large_icon_height:2130903057
+ dimen:notification_large_icon_width:2130903058
+ dimen:notification_main_column_padding_top:2130903059
+ dimen:notification_media_narrow_margin:2130903060
+ dimen:notification_right_icon_size:2130903061
+ dimen:notification_right_side_padding_top:2130903062
+ dimen:notification_small_icon_background_padding:2130903063
+ dimen:notification_small_icon_size_as_large:2130903064
+ dimen:notification_subtext_size:2130903065
+ dimen:notification_top_pad:2130903066
+ dimen:notification_top_pad_large_text:2130903067
+ drawable:ic_call_answer:2130968576
+ drawable:ic_call_answer_low:2130968577
+ drawable:ic_call_answer_video:2130968578
+ drawable:ic_call_answer_video_low:2130968579
+ drawable:ic_call_decline:2130968580
+ drawable:ic_call_decline_low:2130968581
+ drawable:notification_action_background:2130968583
+ drawable:notification_bg:2130968584
+ drawable:notification_bg_low:2130968585
+ drawable:notification_bg_low_normal:2130968586
+ drawable:notification_bg_low_pressed:2130968587
+ drawable:notification_bg_normal:2130968588
+ drawable:notification_bg_normal_pressed:2130968589
+ drawable:notification_icon_background:2130968590
+ drawable:notification_oversize_large_icon_bg:2130968591
+ drawable:notification_template_icon_bg:2130968592
+ drawable:notification_template_icon_low_bg:2130968593
+ drawable:notification_tile_bg:2130968594
+ drawable:notify_panel_notification_icon_bg:2130968595
+ id:action_container:2131034145
+ id:action_divider:2131034146
+ id:action_image:2131034147
+ id:action_text:2131034148
+ id:actions:2131034149
+ id:async:2131034153
+ id:blocking:2131034154
+ id:chronometer:2131034155
+ id:dialog_button:2131034156
+ id:edit_text_id:2131034157
+ id:forever:2131034158
+ id:hide_ime_id:2131034159
+ id:icon:2131034160
+ id:icon_group:2131034161
+ id:info:2131034162
+ id:italic:2131034164
+ id:item_touch_helper_previous_elevation:2131034165
+ id:line1:2131034166
+ id:line3:2131034167
+ id:normal:2131034168
+ id:notification_background:2131034169
+ id:notification_main_column:2131034170
+ id:notification_main_column_container:2131034171
+ id:right_icon:2131034173
+ id:right_side:2131034174
+ id:tag_on_apply_window_listener:2131034180
+ id:tag_on_receive_content_listener:2131034181
+ id:tag_on_receive_content_mime_types:2131034182
+ id:tag_transition_group:2131034185
+ id:tag_unhandled_key_event_manager:2131034186
+ id:tag_unhandled_key_listeners:2131034187
+ id:tag_window_insets_animation_callback:2131034188
+ id:text:2131034189
+ id:text2:2131034190
+ id:time:2131034191
+ id:title:2131034192
+ id:view_tree_lifecycle_owner:2131034193
+ integer:status_bar_notification_info_maxnum:2131099648
+ layout:custom_dialog:2131165185
+ layout:ime_base_split_test_activity:2131165186
+ layout:ime_secondary_split_test_activity:2131165187
+ layout:notification_action:2131165189
+ layout:notification_action_tombstone:2131165190
+ layout:notification_template_custom_big:2131165191
+ layout:notification_template_icon_group:2131165192
+ layout:notification_template_part_chronometer:2131165193
+ layout:notification_template_part_time:2131165194
+ string:call_notification_answer_action:2131296258
+ string:call_notification_answer_video_action:2131296259
+ string:call_notification_decline_action:2131296260
+ string:call_notification_hang_up_action:2131296261
+ string:call_notification_incoming_text:2131296262
+ string:call_notification_ongoing_text:2131296263
+ string:call_notification_screening_text:2131296264
+ string:status_bar_notification_info_overflow:2131296266
+ style:TextAppearance_Compat_Notification:2131361792
+ style:TextAppearance_Compat_Notification_Info:2131361793
+ style:TextAppearance_Compat_Notification_Line2:2131361794
+ style:TextAppearance_Compat_Notification_Time:2131361795
+ style:TextAppearance_Compat_Notification_Title:2131361796
+ style:Widget_Compat_NotificationActionContainer:2131361798
+ style:Widget_Compat_NotificationActionText:2131361799

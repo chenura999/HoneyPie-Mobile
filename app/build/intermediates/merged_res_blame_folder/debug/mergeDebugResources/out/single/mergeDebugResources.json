@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.honeypie.launcher.app-debug-14:/layout_item_app.xml.flat",
+        "source": "com.honeypie.launcher.app-main-16:/layout/item_app.xml"
+    },
+    {
+        "merged": "com.honeypie.launcher.app-debug-14:/drawable_search_bg.xml.flat",
+        "source": "com.honeypie.launcher.app-main-16:/drawable/search_bg.xml"
+    },
+    {
+        "merged": "com.honeypie.launcher.app-debug-14:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.honeypie.launcher.app-main-16:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.honeypie.launcher.app-debug-14:/layout_activity_main.xml.flat",
+        "source": "com.honeypie.launcher.app-main-16:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.honeypie.launcher.app-debug-14:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.honeypie.launcher.app-main-16:/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]
